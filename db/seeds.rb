@@ -767,7 +767,203 @@ bardock = Character.create!(
   }
 
   )
+adultGohan = Character.create!(
+    name: 'Adult Gohan',
+    tier: 'S',
+    image1: '',
+    image2: '',
+    icon: '',
+    l: {
+      '5L': {
+        startup: [6,14],
+        advantage: -2,
+        hit: 'low'
+      },
+      '5LL': {
+        startup: [6,12,15,18],
+        advantage: -2,
+        hit: 'mid'
+      },
+      '5LLL': {
+        startup: 13,
+        advantage: -5,
+        hit: 'mid'
+      },
+      '2L': {
+        startup: 8,
+        advantage: 0,
+        hit: 'mid'
+      },
+      'jL': {
+        startup: 6,
+        advantage: 0,
+        hit: 'high'
+      }
+    },
+    m: {
+      '5M': {
+        startup: 9,
+        advantage: -8,
+        hit: 'mid'
+      },
+      '2M': {
+        startup: 12,
+        advantage: -7,
+        hit: 'low'
+      },
+      'jM': {
+        startup: 9,
+        advantage: 0,
+        hit: 'high'
+      }
+    },
+    h: {
+      '5H': {
+        startup: 11,
+        advantage: -8,
+        hit: 'mid'
+      },
+      '2H': {
+        startup: 14,
+        advantage: -16,
+        hit: 'mid'
+      },
+      '3H': {
+        startup: 8,
+        advantage: -6,
+        hit: 'mid'
+      },
+      'jH': {
+        startup: 11,
+        advantage: 0,
+        hit: 'high'
+      },
+      'j2H': {
+        startup: 11,
+        advantage: 0,
+        hit: 'mid'
+      }
+    },
+    s: {
+      '5S': {
+        startup: 17,
+        advantage: 3,
+        hit: 'mid'
+      },
+      '2S': {
+        startup: 14,
+        advantage: 2,
+        hit: 'mid'
+      },
+      'jS': {
+        startup: 12,
+        advantage: 0,
+        hit: 'mid'
+      },
+      'j2S': {
+        startup: 9,
+        advantage: 0,
+        hit: 'mid'
+      }
+    },
+    specials: {
+      '236L': {
+        startup: 9,
+        advantage: -29,
+        hit: 'mid'
+      },
+      '236M': {
+        startup: [16,27],
+        advantage: -30,
+        hit: 'mid'
+      },
+      '236H': {
+        startup: [9,20],
+        advantage: -34,
+        hit: 'mid'
+      },
+      'j236L': {
+        startup: [17,12,17],
+        advantage: -4,
+        hit: 'mid'
+      },
+      'j236M': {
+        startup: [13,18,23],
+        advantage: -4,
+        hit: 'mid'
+      },
+      'j236H': {
+        startup: 11,
+        advantage: 2,
+        hit: 'mid'
+      },
+      '214L': {
+        startup: 24,
+        advantage: -3,
+        hit: "high"
+      },
+      '214M': {
+        startup: 28,
+        advantage: -3,
+        hit: 'high',
+      },
+      '214H': {
+        startup: 26,
+        advantage: -3,
+        hit: 'high'
+      },
+      'j214L': {
+        startup: 24,
+        advantage: 0,
+        hit: "high"
+      },
+      'j214M': {
+        startup: 28,
+        advantage: 0,
+        hit: 'high',
+      },
+      'j214H': {
+        startup: 26,
+        advantage: 0,
+        hit: 'high'
+      },
+      '236S': {
+        startup: 18,
+        advantage: -16,
+        hit: 'mid'
+      },
+    },
+    assist: {
+      a: {
+        startup: 16,
+        blockstun: 29
+      },
+      b: {
+        startup: 36,
+        blockstun: 40
+      },
+      c: {
+        startup: 35,
+        blockstun: 30
+      }
+    },
+    super: {
+      '236LM': {
+        startup: 9,
+        advantage: -29
+      },
+      '214LM': {
+        startup: 9,
+        advantage: -34
+      }
+    },
+    bnbs: {
+      midscreen: '',
+      corner: '',
+      blockstring: '',
+    }
 
+    )
 puts 'success'
 # create_table :characters do |t|
 #   t.string :name
