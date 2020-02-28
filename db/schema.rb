@@ -10,9 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2020_02_28_164618) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "characters", force: :cascade do |t|
+    t.string "name"
+    t.string "tier"
+    t.string "image1"
+    t.string "image2"
+    t.string "icon"
+    t.json "light"
+    t.json "medium"
+    t.json "heavy"
+    t.json "special"
+    t.json "assist"
+    t.json "super"
+    t.json "bnbs"
+  end
+
+  create_table "tierlist", force: :cascade do |t|
+    t.json "tierlist"
+  end
 
 end

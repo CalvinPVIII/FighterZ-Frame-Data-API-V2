@@ -1,7 +1,7 @@
 class CharactersController < ApplicationController
 
   def index
-    @characters = []
+    @characters = Character.all
     json_response(@characters)
   end
 

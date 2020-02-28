@@ -6,22 +6,16 @@ class AddCharactersTable < ActiveRecord::Migration[5.2]
       t.string :image1
       t.string :image2
       t.string :icon
-      # t.text :5l
-      # t.text :5ll
-      # t.text :5lll
-      # t.text :5m
-      # t.text :2m
-      # t.text :5h
-      # t.text :2h
-      # t.text :5s
-      # t.text :236l
-      # t.text :236m
-      # t.text :236h
-      # t.text :214l
-      # t.text :214m
-      # t.text :214h
-      # t.text :214s
-      # t.text :236s
+      t.json :light
+      t.json :medium
+      t.json :heavy
+      t.json :special
+      t.json :assist
+      t.json :super
+      t.json :bnbs
+    end
+    create_table :tierlist do |t|
+      t.json :tierlist
     end
   end
 end
