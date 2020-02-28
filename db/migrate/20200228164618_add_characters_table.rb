@@ -2,25 +2,26 @@ class AddCharactersTable < ActiveRecord::Migration[5.2]
   def change
     create_table :characters do |t|
       t.string :name
-      t.string: :tierPlacement,
-      t.string :image1,
-      t.string :image2,
-      t.string :icon,
-      t.json :5L,
-      t.json :5LL,
-      t.json :5LLL,
-      t.json :5M,
-      t.json :2M,
-      t.json :5H,
-      t.json :2H,
-      t.json :5S,
-      t.json :236L,
-      t.json :236M,
-      t.json :236H,
-      t.json :214L,
-      t.json :214M,
-      t.json :214H,
-      t.json :214S,
-      t.json :236S
+      t.string :tier
+      t.string :image1
+      t.string :image2
+      t.string :icon
+      # t.text :5l
+      # t.text :5ll
+      # t.text :5lll
+      # t.text :5m
+      # t.text :2m
+      # t.text :5h
+      # t.text :2h
+      # t.text :5s
+      # t.text :236l
+      # t.text :236m
+      # t.text :236h
+      # t.text :214l
+      # t.text :214m
+      # t.text :214h
+      # t.text :214s
+      # t.text :236s
+    end
   end
 end
