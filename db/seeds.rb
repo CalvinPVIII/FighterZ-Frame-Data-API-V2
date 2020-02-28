@@ -1,7 +1,7 @@
 Character.destroy_all
 
 
-ssjgoku = Character.create!(
+ssjGoku = Character.create!(
   name: 'Super Saiyan Goku',
   tier: 'S',
   image1: '',
@@ -197,7 +197,7 @@ ssjgoku = Character.create!(
   }
 
   )
-gtgoku = Character.create!(
+gtGoku = Character.create!(
   name: 'GT Goku',
   tier: 'S',
   image1: '',
@@ -414,7 +414,7 @@ gtgoku = Character.create!(
   }
 
   )
-kidbuu = Character.create!(
+kidBuu = Character.create!(
   name: 'Kid Buu',
   tier: 'S',
   image1: '',
@@ -614,7 +614,178 @@ kidbuu = Character.create!(
   }
 
   )
+teenGohan = Character.create!(
+  name: 'Teen Gohan',
+  tier: 'S',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 9,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 13,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 7,
+      advantage: -4,
+      hit: 'low'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  m: {
+    '5M': {
+      startup: 9,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 11,
+      advantage: -8,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 9,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 15,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 15,
+      advantage: -17,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 11,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 11,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '2S': {
+      startup: 32,
+      advantage: 29,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j2S': {
+      startup: 20,
+      advantage: 29,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 11,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 13,
+      advantage: -11,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 13,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j236L': {
+      startup: [7,12,17],
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j236M': {
+      startup: [16,20,24,28,32,26],
+      advantage: -2,
+      hit: 'mid'
+    },
+    'j236H': {
+      startup: 9,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '214L': {
+      startup: 9,
+      advantage: -28,
+      hit: "mid"
+    },
+    '214M': {
+      startup: 16,
+      advantage: -41,
+      hit: 'mid',
+    },
+    '214H': {
+      startup: 9,
+      advantage: -20,
+      hit: 'mid'
+    },
+  },
+  assist: {
+    a: {
+      startup: 22,
+      blockstun: 29
+    },
+    b: {
+      startup: 31,
+      blockstun: 28
+    },
+    c: {
+      startup: 46,
+      blockstun: 35
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 9,
+      advantage: -16
+    },
+    '214LM': {
+      startup: 13,
+      advantage: -34
+    }
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
 
+  )
 
 puts 'success'
 # create_table :characters do |t|
