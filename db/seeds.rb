@@ -414,7 +414,206 @@ gtgoku = Character.create!(
   }
 
   )
+kidbuu = Character.create!(
+  name: 'Kid Buu',
+  tier: 'S',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 10,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 14,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 7,
+      advantage: -4,
+      hit: 'low'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  m: {
+    '5M': {
+      startup: [10, 31],
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 17,
+      advantage: -10,
+      hit: 'low'
+    },
+    '1M': {
+      startup: 10,
+      advantage: -5,
+      hit: 'low'
+    },
+    '3M': {
+      startup: 17,
+      advantage: -10,
+      hit: 'low'
+    },
+    'jM': {
+      startup: [10, 31],
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 12,
+      advantage: -9,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 13,
+      advantage: -15,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 11,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 14,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 13,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '2S': {
+      startup: 13,
+      advantage: 1,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 10,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 14,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: [17,27],
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: [16,25],
+      advantage: -2,
+      hit: 'mid'
+    },
+    'j236L': {
+      startup: 13,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j236M': {
+      startup: 13,
+      advantage: -4,
+      hit: 'mid'
+    },
+    'j236H': {
+      startup: 9,
+      advantage: -2,
+      hit: 'high'
+    },
+    '214L': {
+      startup: 13,
+      advantage: 0,
+      hit: "throw"
+    },
+    '214M': {
+      startup: 21,
+      advantage: 0,
+      hit: 'throw',
+    },
+    '214H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '236S': {
+      startup: 13,
+      advantage: -8,
+      hit: 'mid'
+    },
+    'j236S': {
+      startup: 17,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 36,
+      advantage: 39,
+      hit: 'mid'
+    }
+  },
+  assist: {
+    a: {
+      startup: 58,
+      blockstun: 58
+    },
+    b: {
+      startup: 26,
+      blockstun: 30
+    },
+    c: {
+      startup: 35,
+      blockstun: 30
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 0,
+      advantage: 0
+    },
+    'j236LM': {
+      startup: 0,
+      advantage: 0
+    },
+    '214LM': {
+      startup: 0,
+      advantage: 0
+    },
+    'j214LM': {
+      startup: 0,
+      advantage: 0
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
 
+  )
 
 
 puts 'success'
