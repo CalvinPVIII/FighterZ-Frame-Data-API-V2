@@ -1369,6 +1369,178 @@ dbzBroly = Character.create!(
     }
 
     )
+yamcha = Character.create!(
+    name: 'Yamcha',
+    tier: 'A',
+    image1: '',
+    image2: '',
+    icon: '',
+    l: {
+      '5L': {
+        startup: 7,
+        advantage: -3,
+        hit: 'mid'
+      },
+      '5LL': {
+        startup: 9,
+        advantage: -4,
+        hit: 'mid'
+      },
+      '5LLL': {
+        startup: [15, 21, 27, 33, 48],
+        advantage: -5,
+        hit: 'mid'
+      },
+      '2L': {
+        startup: 6,
+        advantage: -3,
+        hit: 'mid'
+      },
+      'jL': {
+        startup: 6,
+        advantage: 0,
+        hit: 'high'
+      }
+    },
+    m: {
+      '5M': {
+        startup: 18,
+        advantage: 0,
+        hit: 'mid'
+      },
+      '2M': {
+        startup: 10,
+        advantage: -5,
+        hit: 'low'
+      },
+      'jM': {
+        startup: 9,
+        advantage: 0,
+        hit: 'high'
+      }
+    },
+    h: {
+      '5H': {
+        startup: 31,
+        advantage: 4,
+        hit: 'mid'
+      },
+      '2H': {
+        startup: 13,
+        advantage: -24,
+        hit: 'mid'
+      },
+      'jH': {
+        startup: 15,
+        advantage: 0,
+        hit: 'high'
+      },
+      'j2H': {
+        startup: 12,
+        advantage: 0,
+        hit: 'mid'
+      }
+    },
+    s: {
+      '5S': {
+        startup: 14,
+        advantage: 0,
+        hit: 'mid'
+      },
+      '2S': {
+        startup: 19,
+        advantage: 0,
+        hit: 'mid'
+      },
+      'jS': {
+        startup: 13,
+        advantage: 0,
+        hit: 'mid'
+      }
+    },
+    specials: {
+      '236L': {
+        startup: 11,
+        advantage: -5,
+        hit: 'mid'
+      },
+      '236M': {
+        startup: 25,
+        advantage: -5,
+        hit: 'high'
+      },
+      '236H': {
+        startup: 11,
+        advantage: -5,
+        hit: 'high'
+      },
+      '214L': {
+        startup: 9,
+        advantage: 4,
+        hit: "mid"
+      },
+      '214M': {
+        startup: 13,
+        advantage: -7,
+        hit: 'mid',
+      },
+      '214H': {
+        startup: 9,
+        advantage: -6,
+        hit: 'mid'
+      },
+      'j214L': {
+        startup: 9,
+        advantage: 0,
+        hit: "mid"
+      },
+      'j214M': {
+        startup: 13,
+        advantage: 0,
+        hit: 'mid',
+      },
+      'j214H': {
+        startup: 9,
+        advantage: 0,
+        hit: 'mid'
+      },
+      '236S': {
+        startup: 26,
+        advantage: -4,
+        hit: 'mid'
+      },
+    },
+    assist: {
+      a: {
+        startup: 20,
+        blockstun: 40
+      },
+      b: {
+        startup: 35,
+        blockstun: 30
+      },
+      c: {
+        startup: 46,
+        blockstun: 50
+      }
+    },
+    super: {
+      '236LM': {
+        startup: 0,
+        advantage: 0
+      },
+      '214LM': {
+        startup: 0,
+        advantage: 0
+      }
+    },
+    bnbs: {
+      midscreen: '',
+      corner: '',
+      blockstring: '',
+    }
+
+    )
 puts 'success'
 # create_table :characters do |t|
 #   t.string :name
