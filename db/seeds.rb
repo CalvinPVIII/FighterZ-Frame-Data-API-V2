@@ -197,6 +197,223 @@ ssjGoku = Character.create!(
     }
 
     )
+gtgoku = Character.create!(
+  name: 'GT Goku',
+  tier: 'S',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: [8,12,16,20],
+      advantage: -4,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 11,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '2L': {
+      startup: 7,
+      advantage: -4,
+      hit: 'low'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  m: {
+    '5M': {
+      startup: 10,
+      advantage: -7,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 10,
+      advantage: -6,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 9,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 13,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 13,
+      advantage: -15,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 11,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 18,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 20,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2S': {
+      startup: 14,
+      advantage: 1,
+      hit: 'low'
+    },
+    '1S': {
+      startup: 14,
+      advantage: 1,
+      hit: 'low'
+    },
+    'jS': {
+      startup: 18,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'jxS': {
+      startup: 14,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 9,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 16,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 9,
+      advantage: -3,
+      hit: 'mid'
+    },
+    'j236L': {
+      startup: 9,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236M': {
+      startup: 16,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236H': {
+      startup: 9,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214L': {
+      startup: 15,
+      advantage: -5,
+      hit: "mid"
+    },
+    '214M': {
+      startup: 17,
+      advantage: -5,
+      hit: 'mid',
+    },
+    '214H': {
+      startup: 15,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j214L': {
+      startup: 13,
+      advantage: 0,
+      hit: "mid"
+    },
+    'j214M': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid',
+    },
+    'j214H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '236S': {
+      startup: 20,
+      advantage: -16,
+      hit: 'mid'
+    },
+    'j236S': {
+      startup: 18,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 23,
+      advantage: -4,
+      hit: 'mid'
+    },
+    'j214S': {
+      startup: [17, 25],
+      advantage: 0,
+      hit: 'mid'
+    }
+
+  },
+  assist: {
+    a: {
+      startup: 30,
+      blockstun: 30
+    },
+    b: {
+      startup: 21,
+      blockstun: 32
+    },
+    c: {
+      startup: 61,
+      blockstun: 29
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 10,
+      advantage: 0
+    },
+    '214HS': {
+      startup: 9,
+      advantage: -19
+    },
+    '214LM': {
+      startup: 0,
+      advantage: 0
+    }
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 kidBuu = Character.create!(
   name: 'Kid Buu',
   tier: 'S',
@@ -955,6 +1172,194 @@ adultGohan = Character.create!(
       '214LM': {
         startup: 9,
         advantage: -34
+      }
+    },
+    bnbs: {
+      midscreen: '',
+      corner: '',
+      blockstring: '',
+    }
+
+    )
+dbzBroly = Character.create!(
+    name: 'DBZ Broly',
+    tier: 'A',
+    image1: '',
+    image2: '',
+    icon: '',
+    l: {
+      '5L': {
+        startup: 7,
+        advantage: -2,
+        hit: 'mid'
+      },
+      '5LL': {
+        startup: 10,
+        advantage: -2,
+        hit: 'mid'
+      },
+      '5LLL': {
+        startup: 22,
+        advantage: 0,
+        hit: 'throw'
+      },
+      '2L': {
+        startup: 8,
+        advantage: -2,
+        hit: 'mid'
+      },
+      'jL': {
+        startup: 7,
+        advantage: 0,
+        hit: 'high'
+      }
+    },
+    m: {
+      '5M': {
+        startup: 11,
+        advantage: -11,
+        hit: 'mid'
+      },
+      '2M': {
+        startup: 13,
+        advantage: -5,
+        hit: 'low'
+      },
+      'jM': {
+        startup: 10,
+        advantage: 0,
+        hit: 'high'
+      }
+    },
+    h: {
+      '5H': {
+        startup: 16,
+        advantage: -11,
+        hit: 'mid'
+      },
+      '2H': {
+        startup: 15,
+        advantage: -8,
+        hit: 'mid'
+      },
+      'jH': {
+        startup: 12,
+        advantage: 0,
+        hit: 'high'
+      },
+      'j2H': {
+        startup: 18,
+        advantage: 0,
+        hit: 'mid'
+      }
+    },
+    s: {
+      '5S': {
+        startup: 13,
+        advantage: 0,
+        hit: 'mid'
+      },
+      'jS': {
+        startup: 17,
+        advantage: 0,
+        hit: 'mid'
+      }
+    },
+    specials: {
+      '236L': {
+        startup: 13,
+        advantage: -9,
+        hit: 'mid'
+      },
+      '236M': {
+        startup: 28,
+        advantage: -9,
+        hit: 'mid'
+      },
+      '236H': {
+        startup: 19,
+        advantage: -9,
+        hit: 'mid'
+      },
+      '214L': {
+        startup: 17,
+        advantage: 0,
+        hit: "throw"
+      },
+      '214M': {
+        startup: 24,
+        advantage: 0,
+        hit: 'throw',
+      },
+      '214H': {
+        startup: 24,
+        advantage: 0,
+        hit: 'throw'
+      },
+      'j214L': {
+        startup: 12,
+        advantage: 0,
+        hit: "throw"
+      },
+      'j214M': {
+        startup: 16,
+        advantage: 0,
+        hit: 'throw',
+      },
+      'j214H': {
+        startup: 11,
+        advantage: 0,
+        hit: 'throw'
+      },
+      '236S': {
+        startup: 20,
+        advantage: -5,
+        hit: 'mid'
+      },
+      '214S': {
+        startup: 32,
+        advantage: 0,
+        hit: ''
+      }
+    },
+    assist: {
+      a: {
+        startup: 34,
+        blockstun: 21
+      },
+      b: {
+        startup: 38,
+        blockstun: 44
+      },
+      c: {
+        startup: 46,
+        blockstun: 29
+      }
+    },
+    super: {
+      '236LM': {
+        startup: 9,
+        advantage: 0
+      },
+      '236HS': {
+        startup: 13,
+        advantage: 0
+      },
+      '214LM': {
+        startup: 9,
+        advantage: 0
+      },
+      'j214LM': {
+        startup: 7,
+        advantage: 0
+      },
+      '214HS': {
+        startup: 9,
+        advantage: 0
+      },
+      'j214HS': {
+        startup: 17,
+        advantage: 0
       }
     },
     bnbs: {
