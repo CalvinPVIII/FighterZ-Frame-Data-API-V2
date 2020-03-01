@@ -1941,6 +1941,216 @@ android21 = Character.create!(
   }
 
   )
+vegito = Character.create!(
+  name: 'Vegito',
+  tier: 'A',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 7,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 10,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 9,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '2L': {
+      startup: 20,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 12,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 15,
+      advantage: -10,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 10,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 14,
+      advantage: -9,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 16,
+      advantage: -22,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 12,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '6S': {
+      startup: 16,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '2S': {
+      startup: 20,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 11,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 16,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 11,
+      advantage: -4,
+      hit: 'mid'
+    },
+    'j236L': {
+      startup: 11,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236M': {
+      startup: 16,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236H': {
+      startup: 11,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214L': {
+      startup: 13,
+      advantage: 0,
+      hit: "throw"
+    },
+    '214M': {
+      startup: 19,
+      advantage: 0,
+      hit: 'throw',
+    },
+    '214H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'throw'
+    },
+    'j214L': {
+      startup: 13,
+      advantage: 0,
+      hit: "throw"
+    },
+    'j214M': {
+      startup: 19,
+      advantage: 0,
+      hit: 'throw',
+    },
+    'j214H': {
+      startup: 10,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '236S': {
+      startup: 23,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236S': {
+      startup: 18,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 4,
+      advantage: 0,
+      hit: 'parry'
+    }
+  },
+  assist: {
+    a: {
+      startup: 32,
+      blockstun: 20
+    },
+    b: {
+      startup: 36,
+      blockstun: 42
+    },
+    c: {
+      startup: 61,
+      blockstun: 20
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 10,
+      advantage: -20
+    },
+    'j236LM': {
+      startup: 10,
+      advantage: 0
+    },
+    '214LM': {
+      startup: 9,
+      advantage: -33
+    },
+    'j214LM': {
+      startup: 9,
+      advantage: 
+    }
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 puts 'success'
 # create_table :characters do |t|
 #   t.string :name
