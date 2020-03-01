@@ -2141,8 +2141,225 @@ vegito = Character.create!(
     },
     'j214LM': {
       startup: 9,
-      advantage: 
+      advantage:
     }
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
+cell = Character.create!(
+  name: 'Cell',
+  tier: 'A',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 9,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 9,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '2L': {
+      startup: 7,
+      advantage: -3,
+      hit: 'low'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 9,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 12,
+      advantage: -8,
+      hit: 'low'
+    },
+    '4M': {
+      startup: 9,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'jM': {
+      startup: 11,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2M': {
+      startup: 33,
+      advantage: -3,
+      hit: 'high'
+    },
+
+  },
+  h: {
+    '5H': {
+      startup: 16,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '6H': {
+      startup: 13,
+      advantage: -5,
+      hit: 'low'
+    },
+    '2H': {
+      startup: 13,
+      advantage: -18,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 16,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '2S': {
+      startup: 18,
+      advantage: 2,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 17,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 8,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 14,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 8,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j236L': {
+      startup: 19,
+      advantage: -2,
+      hit: 'mid'
+    },
+    'j236M': {
+      startup: 19,
+      advantage: -2,
+      hit: 'mid'
+    },
+    'j236H': {
+      startup: 8,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '214L': {
+      startup: 12,
+      advantage: -3,
+      hit: "mid"
+    },
+    '214M': {
+      startup: 12,
+      advantage: -3,
+      hit: 'mid',
+    },
+    '214H': {
+      startup: 12,
+      advantage: -1,
+      hit: 'mid'
+    },
+    'j214L': {
+      startup: 12,
+      advantage: 0,
+      hit: "mid"
+    },
+    'j214M': {
+      startup: 12,
+      advantage: 0,
+      hit: 'mid',
+    },
+    'j214H': {
+      startup: 12,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '236S': {
+      startup: 18,
+      advantage: -16,
+      hit: 'mid'
+    },
+    'j236S': {
+      startup: 18,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 30,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  assist: {
+    a: {
+      startup: 42,
+      blockstun: 30
+    },
+    b: {
+      startup: 26,
+      blockstun: 26
+    },
+    c: {
+      startup: 46,
+      blockstun: 25
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 9,
+      advantage: -28
+    },
+    'j236LM': {
+      startup: 9,
+      advantage: -26
+    },
+    '214LM': {
+      startup: 9,
+      advantage: -34
+    },
   },
   bnbs: {
     midscreen: '',
