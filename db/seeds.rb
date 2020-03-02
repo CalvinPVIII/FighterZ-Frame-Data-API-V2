@@ -972,7 +972,7 @@ bardock = Character.create!(
       startup: 9,
       advantage: -14
     },
-    '214LM': {
+    'j214LM': {
       startup: 9,
       advantage: 0
     }
@@ -2141,8 +2141,8 @@ vegito = Character.create!(
     },
     'j214LM': {
       startup: 9,
-      advantage:
-    }
+      advantage: 0
+    },
   },
   bnbs: {
     midscreen: '',
@@ -2360,6 +2360,236 @@ cell = Character.create!(
       startup: 9,
       advantage: -34
     },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
+baseGoku = Character.create!(
+  name: 'Goku',
+  tier: 'A',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 10,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 15,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 6,
+      advantage: -4,
+      hit: 'mid'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  m: {
+    '5M': {
+      startup: 9,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 10,
+      advantage: -11,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 10,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 14,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 14,
+      advantage: -17,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 11,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '2S': {
+      startup: 17,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '1S': {
+      startup: 17,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '3S': {
+      startup: 17,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '123SSS': {
+      startup: 21,
+      advantage: -5,
+      hit: 'high'
+    },
+    'jS': {
+      startup: 12,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 10,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 26,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 18,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j236L': {
+      startup: 10,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j236M': {
+      startup: 26,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j236H': {
+      startup: 18,
+      advantage: 0,
+      hit: 'high'
+    },
+    '214L': {
+      startup: 10,
+      advantage: 0,
+      hit: "throw"
+    },
+    '214M': {
+      startup: 24,
+      advantage: 0,
+      hit: 'throw',
+    },
+    '214H': {
+      startup: 24,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '236S': {
+      startup: 18,
+      advantage: -9,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 21,
+      advantage: -1,
+      hit: ''
+    }
+  },
+  assist: {
+    a: {
+      startup: 29,
+      blockstun: 37
+    },
+    b: {
+      startup: 0,
+      blockstun: 0
+    },
+    c: {
+      startup: 35,
+      blockstun: 32
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 9,
+      followup: {
+        "5L": {
+          startup: 13,
+          advantage: -29
+        },
+        "2L": {
+          startup: 25,
+          advantage: -34
+        },
+        "5M": {
+          startup: 28,
+          advantage: -34
+        },
+        "2M": {
+          startup: 15,
+          advantage: -34
+        },
+        "5S": {
+          startup: 9,
+          advantage: -31
+        },
+        "2S": {
+          startup: 9,
+          advantage: -34
+        },
+        "LM": {
+          startup: 19,
+          advantage: -36
+        },
+        "HS1": {
+          startup: 1,
+          advantage: -40
+        },
+        "HS2": {
+          startup: 1,
+          advantage: -42
+        },
+      }
+    },
+
+    '214LM': {
+      startup: 7,
+      advantage: -11
+    }
   },
   bnbs: {
     midscreen: '',
