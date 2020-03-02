@@ -2377,7 +2377,7 @@ baseGoku = Character.create!(
   l: {
     '5L': {
       startup: 6,
-      advantage: -3,
+      advantage: -4,
       hit: 'mid'
     },
     '5LL': {
@@ -2590,6 +2590,193 @@ baseGoku = Character.create!(
       startup: 7,
       advantage: -11
     }
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
+trunks = Character.create!(
+  name: 'Trunks',
+  tier: 'A',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 11,
+      advantage: -7,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 13,
+      advantage: -7,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 6,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 9,
+      advantage: -9,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 12,
+      advantage: -10,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 10,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 13,
+      advantage: -17,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 15,
+      advantage: -18,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 16,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 26,
+      advantage: -5,
+      hit: 'high'
+    },
+    '236M': {
+      startup: 32,
+      advantage: 2,
+      hit: 'high'
+    },
+    '236H': {
+      startup: 24,
+      advantage: -5,
+      hit: 'high'
+    },
+    'j236L': {
+      startup: 24,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j236M': {
+      startup: 26,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j236H': {
+      startup: 20,
+      advantage: 0,
+      hit: 'high'
+    },
+    '214L': {
+      startup: 13,
+      advantage: 0,
+      hit: ""
+    },
+    '214M': {
+      startup: 13,
+      advantage: 0,
+      hit: '',
+    },
+    '214H': {
+      startup: 10,
+      advantage: 0,
+      hit: ''
+    },
+    'j214L': {
+      startup: 15,
+      advantage: 0,
+      hit: ""
+    },
+    'j214M': {
+      startup: 15,
+      advantage: 0,
+      hit: '',
+    },
+    'j214H': {
+      startup: 11,
+      advantage: 0,
+      hit: ''
+    },
+    '236S': {
+      startup: 18,
+      advantage: -16,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 19,
+      advantage: -5,
+      hit: 'mid'
+    }
+  },
+  assist: {
+    a: {
+      startup: 31,
+      blockstun: 14
+    },
+    b: {
+      startup: 35,
+      blockstun: 30
+    },
+    c: {
+      startup: 46,
+      blockstun: 50
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 9,
+      advantage: -27
+    },
+    '214LM': {
+      startup: 9,
+      advantage: 0
+    },
   },
   bnbs: {
     midscreen: '',
