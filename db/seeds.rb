@@ -2785,6 +2785,404 @@ trunks = Character.create!(
   }
 
   )
+piccolo = Character.create!(
+  name: 'Piccolo',
+  tier: 'A',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 9,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 15,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 7,
+      advantage: -4,
+      hit: 'low'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 10,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 10,
+      advantage: -6,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 10,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 15,
+      advantage: -9,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 13,
+      advantage: -18,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 11,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 28,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '2S': {
+      startup: 16,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '6S': {
+      startup: 16,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '3S': {
+      startup: 12,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 24,
+      advantage: 0,
+      hit: 'throw'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 30,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 31,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 29,
+      advantage: -2,
+      hit: 'mid'
+    },
+    'j236L': {
+      startup: 30,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236M': {
+      startup: 31,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236H': {
+      startup: 39,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214L': {
+      startup: 37,
+      advantage: -1,
+      hit: "mid"
+    },
+    '214M': {
+      startup: 41,
+      advantage: -2,
+      hit: 'high',
+    },
+    '214H': {
+      startup: 31,
+      advantage: -10,
+      hit: 'mid'
+    },
+    'j214L': {
+      startup: 13,
+      advantage: 0,
+      hit: "all"
+    },
+    'j214M': {
+      startup: 19,
+      advantage: 0,
+      hit: 'high',
+    },
+    'j214H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '236S': {
+      startup: 19,
+      advantage: -6,
+      hit: 'mid'
+    },
+  },
+  assist: {
+    a: {
+      startup: 28,
+      blockstun: 25
+    },
+    b: {
+      startup: 26,
+      blockstun: 28
+    },
+    c: {
+      startup: 61,
+      blockstun: 29
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 11,
+      advantage: -17
+    },
+    '236HS': {
+      startup: 9,
+      advantage: 65
+    },
+    '214LM': {
+      startup: 9,
+      advantage: -35
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
+gotenks = Character.create!(
+    name: 'Gotenks',
+    tier: 'A',
+    image1: '',
+    image2: '',
+    icon: '',
+    l: {
+      '5L': {
+        startup: 6,
+        advantage: -3,
+        hit: 'mid'
+      },
+      '5LL': {
+        startup: 10,
+        advantage: -5,
+        hit: 'mid'
+      },
+      '5LLL': {
+        startup: 14,
+        advantage: 0,
+        hit: 'mid'
+      },
+      '2L': {
+        startup: 7,
+        advantage: -4,
+        hit: 'low'
+      },
+      'jL': {
+        startup: 7,
+        advantage: 0,
+        hit: 'high'
+      }
+    },
+    m: {
+      '5M': {
+        startup: 9,
+        advantage: -6,
+        hit: 'mid'
+      },
+      '2M': {
+        startup: 11,
+        advantage: -7,
+        hit: 'low'
+      },
+      'jM': {
+        startup: 9,
+        advantage: 0,
+        hit: 'high'
+      }
+    },
+    h: {
+      '5H': {
+        startup: 13,
+        advantage: -8,
+        hit: 'mid'
+      },
+      '2H': {
+        startup: 14,
+        advantage: -16,
+        hit: 'mid'
+      },
+      'jH': {
+        startup: 15,
+        advantage: 0,
+        hit: 'high'
+      },
+      'j2H': {
+        startup: 13,
+        advantage: 0,
+        hit: 'mid'
+      }
+    },
+    s: {
+      '5S': {
+        startup: 14,
+        advantage: -4,
+        hit: 'mid'
+      },
+      'jS': {
+        startup: 15,
+        advantage: 0,
+        hit: 'mid'
+      }
+    },
+    specials: {
+      '236L': {
+        startup: 9,
+        advantage: -2,
+        hit: 'mid'
+      },
+      '236M': {
+        startup: 9,
+        advantage: 3,
+        hit: 'mid'
+      },
+      '236H': {
+        startup: 9,
+        advantage: 3,
+        hit: 'mid'
+      },
+      'j236L': {
+        startup: 9,
+        advantage: 0,
+        hit: 'mid'
+      },
+      'j236M': {
+        startup: 9,
+        advantage: 0,
+        hit: 'mid'
+      },
+      'j236H': {
+        startup: 9,
+        advantage: 0,
+        hit: 'mid'
+      },
+      '214L': {
+        startup: 10,
+        advantage: -5,
+        hit: "mid"
+      },
+      '214M': {
+        startup: 10,
+        advantage: 0,
+        hit: 'mid',
+      },
+      '214H': {
+        startup: 10,
+        advantage: -4,
+        hit: 'mid'
+      },
+      'j214L': {
+        startup: 8,
+        advantage: 0,
+        hit: "mid"
+      },
+      'j214M': {
+        startup: 8,
+        advantage: 0,
+        hit: 'mid',
+      },
+      'j214H': {
+        startup: 8,
+        advantage: -4,
+        hit: 'mid'
+      },
+      '236S': {
+        startup: 17,
+        advantage: -16,
+        hit: 'mid'
+      },
+      'j236S': {
+        startup: 17,
+        advantage: 0,
+        hit: 'mid'
+      },
+      '214S': {
+        startup: 29,
+        advantage: 5,
+        hit: 'mid'
+      },
+      'j214S': {
+        startup: 12,
+        advantage: 0,
+        hit: 'mid'
+      },
+    },
+    assist: {
+      a: {
+        startup: 48,
+        blockstun: 46
+      },
+      b: {
+        startup: 26,
+        blockstun: 31
+      },
+      c: {
+        startup: 35,
+        blockstun: 30
+      }
+    },
+    super: {
+      '236LM': {
+        startup: 9,
+        advantage: 0
+      },
+      '214LM': {
+        startup: 9,
+        advantage: 0
+      }
+    },
+    bnbs: {
+      midscreen: '',
+      corner: '',
+      blockstring: '',
+    }
+
+    )
 puts 'success'
 # create_table :characters do |t|
 #   t.string :name
