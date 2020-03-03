@@ -3183,6 +3183,212 @@ gotenks = Character.create!(
     }
 
     )
+gogeta = Character.create!(
+  name: 'Gogeta',
+  tier: 'A',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 11,
+      advantage: -10,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 26,
+      advantage: -5,
+      hit: 'high'
+    },
+    '2L': {
+      startup: 11,
+      advantage: -8,
+      hit: 'low'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  m: {
+    '5M': {
+      startup: 14,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 15,
+      advantage: -13,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 10,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 13,
+      advantage: -13,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 15,
+      advantage: -20,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 17,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j2H': {
+      startup: 18,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 20,
+      advantage: -24,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 20,
+      advantage: -24,
+      hit: 'mid'
+    },
+    'j2S': {
+      startup: 22,
+      advantage: -24,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 12,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 17,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 13,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j236L': {
+      startup: 12,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236M': {
+      startup: 17,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214L': {
+      startup: 9,
+      advantage: 0,
+      hit: "mid"
+    },
+    '214M': {
+      startup: 16,
+      advantage: 0,
+      hit: 'mid',
+    },
+    '214H': {
+      startup: 9,
+      advantage: -22,
+      hit: 'mid'
+    },
+    'j214L': {
+      startup: 8,
+      advantage: 0,
+      hit: "mid"
+    },
+    'j214M': {
+      startup: 16,
+      advantage: 0,
+      hit: 'mid',
+    },
+    'j214H': {
+      startup: 9,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '236S': {
+      startup: 34,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j236S': {
+      startup: 34,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 25,
+      advantage: 0,
+      hit: 'throw'
+    },
+  },
+  assist: {
+    a: {
+      startup: 48,
+      blockstun: 46
+    },
+    b: {
+      startup: 26,
+      blockstun: 31
+    },
+    c: {
+      startup: 35,
+      blockstun: 30
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 10,
+      advantage: -24
+    },
+    '236HS': {
+      startup: 10,
+      advantage: -33
+    },
+    'j236LM': {
+      startup: 9,
+      advantage: 0
+    },
+
+    '214LM': {
+      startup: 10,
+      advantage: -29
+    }
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 puts 'success'
 # create_table :characters do |t|
 #   t.string :name
