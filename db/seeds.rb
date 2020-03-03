@@ -4005,18 +4005,218 @@ cooler = Character.create!(
   }
 
   )
+gokuBlack = Character.create!(
+  name: 'Super Saiyan Rosé Goku Black',
+  tier: 'A',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 11,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 14,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 8,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 10,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 11,
+      advantage: -4,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 9,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 14,
+      advantage: -10,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 18,
+      advantage: -15,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 13,
+      advantage: -12,
+      hit: 'mid'
+    },
+
+    'jS': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+
+  },
+  specials: {
+    '236L': {
+      startup: 13,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 20,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 13,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j236L': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236M': {
+      startup: 20,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j236H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214L': {
+      startup: 19,
+      advantage: 0,
+      hit: "teleport"
+    },
+    '214M': {
+      startup: 19,
+      advantage: 0,
+      hit: 'teleport',
+    },
+    '214H': {
+      startup: 19,
+      advantage: 0,
+      hit: 'teleport'
+    },
+    'j214L': {
+      startup: 14,
+      advantage: -2,
+      hit: "mid"
+    },
+    'j214M': {
+      startup: 18,
+      advantage: -2,
+      hit: 'mid',
+    },
+    'j214H': {
+      startup: 14,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '236S': {
+      startup: 18,
+      advantage: -14,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 31,
+      advantage: 0,
+      hit: 'throw'
+    },
+  },
+  assist: {
+    a: {
+      startup: 35,
+      blockstun: 30
+    },
+    b: {
+      startup: 21,
+      blockstun: 29
+    },
+    c: {
+      startup: 61,
+      blockstun: 32
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 9,
+      advantage: -24
+    },
+    'j236LM': {
+      startup: 9,
+      advantage: -30
+    },
+    '236HS': {
+      startup: 9,
+      advantage: -30
+    },
+    'j236HS': {
+      startup: 9,
+      advantage: -33
+    },
+    '214LM': {
+      startup: 9,
+      advantage: -38
+    },
+    'j214LM': {
+      startup: 9,
+      advantage: -30
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 puts 'success'
-# create_table :characters do |t|
-#   t.string :name
-#   t.string :tier
-#   t.string :image1
-#   t.string :image2
-#   t.string :icon
-#   t.json :light
-#   t.json :medium
-#   t.json :heavy
-#   t.json :special
-#   t.json :assist
-#   t.json :super
-#   t.json :bnbs
-# end
+
+
+
+
+# character frame data
+# https://docs.google.com/spreadsheets/d/1-p29UmRGIPF6n17ddOEtYfLcn_KRlE2VH6tE61P5UM8/edit
+
+# assist fram data
+# https://docs.google.com/spreadsheets/d/1IIpmO2wDU2KZV7tYQhcK3hB0Z_Mg1H18HFeDox9LZ9o/edit#gid=0
