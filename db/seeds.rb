@@ -4967,6 +4967,210 @@ android17 = Character.create!(
   }
 
   )
+tien = Character.create!(
+  name: 'Tien Shinhan',
+  tier: 'B',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 9,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 13,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 7,
+      advantage: -4,
+      hit: 'low'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 10,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 10,
+      advantage: -7,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 9,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 13,
+      advantage: -12,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 12,
+      advantage: -15,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 12,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 12,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 15,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 11,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 29,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 24,
+      advantage: 0,
+      hit: 'throw'
+    },
+    'j236L': {
+      startup: 15,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j236M': {
+      startup: 20,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j236H': {
+      startup: 17,
+      advantage: 0,
+      hit: 'high'
+    },
+    '214L': {
+      startup: 26,
+      advantage: -4,
+      hit: "high"
+    },
+    '214M': {
+      startup: 28,
+      advantage: -4,
+      hit: 'high',
+    },
+    '214H': {
+      startup: 24,
+      advantage: -4,
+      hit: 'high'
+    },
+    'j214L': {
+      startup: 22,
+      advantage: 0,
+      hit: "high"
+    },
+    'j214M': {
+      startup: 28,
+      advantage: 0,
+      hit: 'high',
+    },
+    'j214H': {
+      startup: 24,
+      advantage: 0,
+      hit: 'high'
+    },
+    '236S': {
+      startup: 19,
+      advantage: -5,
+      hit: 'mid'
+    },
+    'j236S': {
+      startup: 21,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 44,
+      advantage: 23,
+      hit: 'mid'
+    },
+  },
+  assist: {
+    a: {
+      startup: 30,
+      blockstun: 20
+    },
+    b: {
+      startup: 61,
+      blockstun: 40
+    },
+    c: {
+      startup: 46,
+      blockstun: 50
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 13,
+      advantage: -20
+    },
+    'j236LM': {
+      startup: 13,
+      advantage: -20
+    },
+    '214LM': {
+      startup: 17,
+      advantage: -42
+    },
+    'j214LM': {
+      startup: 17,
+      advantage: -42
+    },
+    '214HS': {
+      startup: 9,
+      advantage: 0
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 puts 'success'
 
 
