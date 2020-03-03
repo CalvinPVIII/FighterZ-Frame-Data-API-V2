@@ -4600,6 +4600,202 @@ android18 = Character.create!(
   }
 
   )
+android16 = Character.create!(
+  name: 'Android 16',
+  tier: 'A',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 7,
+      advantage: -6,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 10,
+      advantage: -10,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 10,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '2L': {
+      startup: 8,
+      advantage: -4,
+      hit: 'throw'
+    },
+    'jL': {
+      startup: 8,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 11,
+      advantage: -11,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 13,
+      advantage: -12,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 11,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 15,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 15,
+      advantage: -22,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 17,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 21,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 15,
+      advantage: -10,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 18,
+      advantage: 0,
+      hit: 'mid'
+    },
+
+  },
+  specials: {
+    '236L': {
+      startup: 17,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '236M': {
+      startup: 28,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '236H': {
+      startup: 26,
+      advantage: 0,
+      hit: 'throw'
+    },
+    'j236L': {
+      startup: 10,
+      advantage: 0,
+      hit: 'throw'
+    },
+    'j236M': {
+      startup: 19,
+      advantage: 0,
+      hit: 'throw'
+    },
+    'j236H': {
+      startup: 12,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '214L': {
+      startup: 10,
+      advantage: 0,
+      hit: "throw"
+    },
+    '214M': {
+      startup: 19,
+      advantage: 0,
+      hit: 'throw',
+    },
+    '214H': {
+      startup: 6,
+      advantage: -1,
+      hit: 'all'
+    },
+    'j214L': {
+      startup: 10,
+      advantage: 0,
+      hit: "throw"
+    },
+    'j214M': {
+      startup: 19,
+      advantage: 0,
+      hit: 'throw',
+    },
+    'j214H': {
+      startup: 12,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '236S': {
+      startup: 18,
+      advantage: -1,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 24,
+      advantage: 4,
+      hit: 'mid'
+    },
+  },
+  assist: {
+    a: {
+      startup: 29,
+      blockstun: 22
+    },
+    b: {
+      startup: 31,
+      blockstun: 43
+    },
+    c: {
+      startup: 46,
+      blockstun: 50
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 9,
+      advantage: 0
+    },
+    'j236LM': {
+      startup: 9,
+      advantage: 0
+    },
+    '214LM': {
+      startup: 9,
+      advantage: 0
+    },
+    '214HS': {
+      startup: 31,
+      advantage: 0
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 puts 'success'
 
 
