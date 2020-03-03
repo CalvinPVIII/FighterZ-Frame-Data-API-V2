@@ -5400,6 +5400,195 @@ janemba = Character.create!(
   }
 
   )
+frieza = Character.create!(
+  name: 'Frieza',
+  tier: 'B',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 10,
+      advantage: -6,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 13,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 7,
+      advantage: -4,
+      hit: 'low'
+    },
+    'jL': {
+      startup: 7,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 13,
+      advantage: -6,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 10,
+      advantage: -2,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 7,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  h: {
+    '5H': {
+      startup: 13,
+      advantage: -12,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 17,
+      advantage: -18,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 18,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 11,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '3S': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '2S': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '1S': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j2S': {
+      startup: 14,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '22S': {
+      startup: 34,
+      advantage: -3,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 14,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 18,
+      advantage: -9,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 14,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236S': {
+      startup: 13,
+      advantage: -17,
+      hit: 'mid'
+    },
+    'j236S': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+    },
+    '214S': {
+      startup: 33,
+      advantage: 2,
+      hit: ''
+    },
+  },
+  assist: {
+    a: {
+      startup: 24,
+      blockstun: 23
+    },
+    b: {
+      startup: 20,
+      blockstun: 11
+    },
+    c: {
+      startup: 26,
+      blockstun: 22
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 8,
+      advantage: 0
+    },
+    'j236LM': {
+      startup: 7,
+      advantage: 0
+    },
+    '214LM': {
+      startup: 11,
+      advantage: 0
+    },
+    'j214LM': {
+      startup: 11,
+      advantage: 0
+    },
+    '214HS': {
+      startup: 34,
+      advantage: 0
+    },
+    'k214HS': {
+      startup: 39,
+      advantage: 0
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 puts 'success'
 
 
