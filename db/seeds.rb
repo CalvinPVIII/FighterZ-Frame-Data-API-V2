@@ -5786,6 +5786,168 @@ majinBuu = Character.create!(
   }
 
   )
+nappa = Character.create!(
+  name: 'Nappa',
+  tier: 'B',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 7,
+      advantage: -3,
+      hit: 'low'
+    },
+    '5LL': {
+      startup: 11,
+      advantage: -7,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 15,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 8,
+      advantage: -1,
+      hit: 'mid'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 14,
+      advantage: -4,
+      hit: 'low'
+    },
+    '2M': {
+      startup: 15,
+      advantage: -7,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 11,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 15,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 13,
+      advantage: -13,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 19,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 16,
+      advantage: -6,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 18,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  specials: {
+    '236L': {
+      startup: 24,
+      advantage: -5,
+      hit: 'high'
+    },
+    '236M': {
+      startup: 26,
+      advantage: -5,
+      hit: 'high'
+    },
+    '236H': {
+      startup: 24,
+      advantage: -5,
+      hit: 'high'
+    },
+    '214L': {
+      startup: 26,
+      advantage: 0,
+      hit: "plant"
+    },
+    '214M': {
+      startup: 26,
+      advantage: 0,
+      hit: 'plant',
+    },
+    '214H': {
+      startup: 25,
+      advantage: 0,
+      hit: 'plant'
+    },
+    '236S': {
+      startup: 20,
+      advantage: -2,
+      hit: 'mid'
+    },
+    'j236S': {
+      startup: 22,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 12,
+      advantage: -5,
+      hit: 'mid'
+    },
+  },
+  assist: {
+    a: {
+      startup: 29,
+      blockstun: 35
+    },
+    b: {
+      startup: 26,
+      blockstun: 29
+    },
+    c: {
+      startup: 61,
+      blockstun: 32
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 10,
+      advantage: -21
+    },
+    '214LM': {
+      startup: 10,
+      advantage: -24
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 puts 'success'
 
 
