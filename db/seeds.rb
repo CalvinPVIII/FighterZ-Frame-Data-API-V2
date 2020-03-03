@@ -3351,16 +3351,16 @@ gogeta = Character.create!(
   },
   assist: {
     a: {
-      startup: 48,
-      blockstun: 46
+      startup: 35,
+      blockstun: 29
     },
     b: {
       startup: 26,
-      blockstun: 31
+      blockstun: 21
     },
     c: {
-      startup: 35,
-      blockstun: 30
+      startup: 61,
+      blockstun: 31
     }
   },
   super: {
