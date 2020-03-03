@@ -6077,16 +6077,16 @@ hit = Character.create!(
   },
   assist: {
     a: {
-      startup: 10,
-      blockstun: 35
+      startup: 26,
+      blockstun: 29
     },
     b: {
-      startup: 21,
-      blockstun: 23
+      startup: 41,
+      blockstun: 29
     },
     c: {
-      startup: 46,
-      blockstun: 50
+      startup: 61,
+      blockstun: 32
     }
   },
   super: {
