@@ -5948,6 +5948,172 @@ nappa = Character.create!(
   }
 
   )
+hit = Character.create!(
+  name: 'Hit',
+  tier: 'B',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 11,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 10,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 20,
+      advantage: -3,
+      hit: 'high'
+    },
+    'jL': {
+      startup: 6,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 10,
+      advantage: -2,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 27,
+      advantage: -5,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 9,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 15,
+      advantage: -8,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 13,
+      advantage: -14,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 4,
+      advantage: -7,
+      hit: 'parry'
+    },
+    'jS': {
+      startup: 4,
+      advantage: 0,
+      hit: 'parry'
+    },
+
+  },
+  specials: {
+    '236L': {
+      startup: 11,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 28,
+      advantage: -18,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 18,
+      advantage: -18,
+      hit: 'mid'
+    },
+    '214L': {
+      startup: 30,
+      advantage: 0,
+      hit: "holdable throw"
+    },
+    '214M': {
+      startup: 33,
+      advantage: 0,
+      hit: 'holdable throw',
+    },
+    '214H': {
+      startup: 30,
+      advantage: 0,
+      hit: 'holdable throw'
+    },
+    '214S': {
+      startup: 5,
+      advantage: 0,
+      hit: ''
+    },
+    '236S': {
+      startup: 5,
+      advantage: 0,
+      hit: ''
+    },
+  },
+  assist: {
+    a: {
+      startup: 10,
+      blockstun: 35
+    },
+    b: {
+      startup: 21,
+      blockstun: 23
+    },
+    c: {
+      startup: 46,
+      blockstun: 50
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 0,
+      advantage: 0
+    },
+    'j236LM': {
+      startup: 0,
+      advantage: 0
+    },
+    '236HS': {
+      startup: 0,
+      advantage: 0
+    },
+    '214LM': {
+      startup: 0,
+      advantage: 0
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 puts 'success'
 
 
