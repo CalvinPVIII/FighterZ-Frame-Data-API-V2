@@ -4404,6 +4404,202 @@ dbsBroly = Character.create!(
   }
 
   )
+android18 = Character.create!(
+  name: 'Android 18',
+  tier: 'A',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -4,
+      hit: 'low'
+    },
+    '5LL': {
+      startup: 10,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 12,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 7,
+      advantage: -4,
+      hit: 'mid'
+    },
+    'jL': {
+      startup: 7,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 10,
+      advantage: -6,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 11,
+      advantage: -8,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 11,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 15,
+      advantage: -10,
+      hit: 'mid'
+    },
+    '2H': {
+      startup: 13,
+      advantage: -17,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 13,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 14,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 13,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '2S': {
+      startup: 32,
+      advantage: 11,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 15,
+      advantage: 0,
+      hit: 'mid'
+    },
+
+  },
+  specials: {
+    '236L': {
+      startup: 17,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '236M': {
+      startup: 30,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '236H': {
+      startup: 28,
+      advantage: 0,
+      hit: 'throw'
+    },
+    '214L': {
+      startup: 14,
+      advantage: 35,
+      hit: "mid"
+    },
+    '214M': {
+      startup: 32,
+      advantage: 35,
+      hit: 'mid',
+    },
+    '214H': {
+      startup: 13,
+      advantage:51,
+      hit: 'mid'
+    },
+    'j214L': {
+      startup: 20,
+      advantage: 21,
+      hit: "mid"
+    },
+    'j214M': {
+      startup: 32,
+      advantage: 35,
+      hit: 'mid',
+    },
+    'j214H': {
+      startup: 13,
+      advantage: 51,
+      hit: 'mid'
+    },
+    '236S': {
+      startup: 20,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '214S': {
+      startup: 43,
+      advantage: 38,
+      hit: 'mid'
+    },
+    'j214S': {
+      startup: 26,
+      advantage: 0,
+      hit: 'mid'
+    },
+    '22S': {
+      startup: 4,
+      advantage: 0,
+      hit: 'mid'
+    },
+  },
+  assist: {
+    a: {
+      startup: 10,
+      blockstun: 0
+    },
+    b: {
+      startup: 26,
+      blockstun: 0
+    },
+    c: {
+      startup: 46,
+      blockstun: 50
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 33,
+      advantage: 0
+    },
+    'j236LM': {
+      startup: 33,
+      advantage: -30
+    },
+    '214LM': {
+      startup: 9,
+      advantage: 0
+    },
+    'j214LM': {
+      startup: 9,
+      advantage: 0
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
 puts 'success'
 
 
