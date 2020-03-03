@@ -4602,7 +4602,7 @@ android18 = Character.create!(
   )
 android16 = Character.create!(
   name: 'Android 16',
-  tier: 'A',
+  tier: 'B',
   image1: '',
   image2: '',
   icon: '',
@@ -4786,6 +4786,177 @@ android16 = Character.create!(
     },
     '214HS': {
       startup: 31,
+      advantage: 0
+    },
+  },
+  bnbs: {
+    midscreen: '',
+    corner: '',
+    blockstring: '',
+  }
+
+  )
+android17 = Character.create!(
+  name: 'Android 17',
+  tier: 'B',
+  image1: '',
+  image2: '',
+  icon: '',
+  l: {
+    '5L': {
+      startup: 6,
+      advantage: -3,
+      hit: 'mid'
+    },
+    '5LL': {
+      startup: 12,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '5LLL': {
+      startup: 15,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2L': {
+      startup: 7,
+      advantage: -4,
+      hit: 'low'
+    },
+    'jL': {
+      startup: 8,
+      advantage: 0,
+      hit: 'high'
+    },
+  },
+  m: {
+    '5M': {
+      startup: 11,
+      advantage: -5,
+      hit: 'mid'
+    },
+    '2M': {
+      startup: 10,
+      advantage: -6,
+      hit: 'low'
+    },
+    'jM': {
+      startup: 10,
+      advantage: 0,
+      hit: 'high'
+    }
+  },
+  h: {
+    '5H': {
+      startup: 15,
+      advantage: -10,
+      hit: 'mid'
+    },
+    '3H': {
+      startup: 12,
+      advantage: -8,
+      hit: 'low'
+    },
+    '2H': {
+      startup: 14,
+      advantage: -16,
+      hit: 'mid'
+    },
+    'jH': {
+      startup: 17,
+      advantage: 0,
+      hit: 'high'
+    },
+    'j2H': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    }
+  },
+  s: {
+    '5S': {
+      startup: 13,
+      advantage: -4,
+      hit: 'mid'
+    },
+    '22S': {
+      startup: 14,
+      advantage: -28,
+      hit: 'mid'
+    },
+    'jS': {
+      startup: 13,
+      advantage: 0,
+      hit: 'mid'
+    },
+    'j22S': {
+      startup: 16,
+      advantage: 0,
+      hit: 'mid'
+    },
+
+  },
+  specials: {
+    '236L': {
+      startup: 15,
+      advantage: -19,
+      hit: 'mid'
+    },
+    '236M': {
+      startup: 25,
+      advantage: -19,
+      hit: 'mid'
+    },
+    '236H': {
+      startup: 33,
+      advantage: -19,
+      hit: 'mid'
+    },
+    '214L': {
+      startup: 31,
+      advantage: -19,
+      hit: "mid"
+    },
+    '214M': {
+      startup: 37,
+      advantage: -19,
+      hit: 'mid',
+    },
+    '214H': {
+      startup: 40,
+      advantage: -19,
+      hit: 'all'
+    },
+  },
+  assist: {
+    a: {
+      startup: 10,
+      blockstun: 35
+    },
+    b: {
+      startup: 21,
+      blockstun: 23
+    },
+    c: {
+      startup: 46,
+      blockstun: 50
+    }
+  },
+  super: {
+    '236LM': {
+      startup: 0,
+      advantage: 0
+    },
+    '236HS': {
+      startup: 0,
+      advantage: 0
+    },
+    '214LM': {
+      startup: 0,
+      advantage: 0
+    },
+    'j214LM': {
+      startup: 0,
       advantage: 0
     },
   },
