@@ -22516,6 +22516,47 @@ puts 'success'
 
 
 
+# supers: [
+#   {
+#     "MOVE": '236LM',
+#     'STARTUP': '9',
+#     'ADVANTAGE' '-'
+#   },
+#   {
+#     'MOVE': 'j236LM',
+#     'STARTUP': '9',
+#     'ADVANTAGE': '-'
+#   },
+# {
+#   'MOVE': '214LM',
+#   'STARTUP': '9'
+#   'ADVANTAGE': '-'
+# },
+# {
+#   'MOVE': '214HS',
+#   'STARTUP': '31',
+#   'ADVANTAGE': '-'
+# }
+# ],
+# assists: [
+#   {
+#     'TYPE': 'A'
+#     'STARTUP': '29',
+#     'BLOCKSTUN': '22',
+#   },
+#   {
+#     'TYPE': 'B'
+#     'STARTUP': '31',
+#     'BLOCKSTUN': '43',
+#   },
+#   {
+#     'TYPE': 'C'
+#     'STARTUP': '46',
+#     'BLOCKSTUN': '50',
+#   },
+#
+# ],
+
 
 # character frame data
 # https://docs.google.com/spreadsheets/d/1-p29UmRGIPF6n17ddOEtYfLcn_KRlE2VH6tE61P5UM8/edit
