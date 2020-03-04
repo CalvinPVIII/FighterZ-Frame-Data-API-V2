@@ -1,27 +1,4 @@
 Character.destroy_all
-
-# character = Character.create!(
-#   character: {
-#     bio: {
-#       name: 'character',
-#       pictures: [],
-#       tier: ''
-#     },
-#     moves: [],
-#     supers: [
-#     ],
-#     assists: [
-#
-#     ],
-#
-#     combos: {
-#
-#     },
-#   }
-# )
-
-
-
 android16 = Character.create!(
   character:{
 
