@@ -458,9 +458,19 @@ android16 = Character.create!(
 
   ],
 
-  combos: {
+  combos: [
+    {
+      position: 'midscreen',
+      notation: '2M 5M jM j2H superdash jML djL4LM jH delay j214L',
+      video: '',
+    },
+    {
+      position: 'corner',
+      notation: '2M 5M jM djM jS(2) j236M(2) superdash jM djM jH jS(2) j214L',
+      video: '',
+    },
 
-  },
+  ],
 
 
 
@@ -1284,9 +1294,19 @@ assists: [
   },
 
 ],
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jMLL j2H superdash jLML j2H djLLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 3H 5H 214LLMM 236MMMM2S',
+    video: '',
+  },
 
-    },
+],
   }
 )
 android18 = Character.create!(
@@ -1771,9 +1791,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jMLL j2H j214M slight delay superdash jMLL j2H djLLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M jMLL j2H j214M superdash jML j2H jLLL',
+    video: '',
+  },
 
-    },
+],
   }
 )
 android21 = Character.create!(
@@ -2534,9 +2564,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jM j2H superdash jMLL j2H djLL jS 214S/236S ~ L/M or 214M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M jM jH j2H superdash jMH j2H djLLL jS 214S/236S L/M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 bardock = Character.create!(
@@ -3020,9 +3060,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M jM(2)L j2H superdash jM(2)L j2H DjLL(2)L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M jM(1) jS 236M delay airdash jMS land 5LL IAD jL jS land 5LL 2M 5S 5H superdash jLL(2) j2H djLL(2) 214L',
+    video: '',
+  },
 
-    },
+],
   }
 )
 beerus = Character.create!(
@@ -3610,9 +3660,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jMLL j2H superdash jLL djLML jS(3) j214M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M 236M 2M 5H 5S 214L airdash jLM j236[L] sjLML djLML j2H j214M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 dbsBroly = Character.create!(
@@ -4193,9 +4253,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 2M 5M jML j2H superdash jML djLL j236M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M 236M 5L 2M 2M 5M jML j2H jS superdash jML djML jS j236M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 dbzBroly = Character.create!(
@@ -4768,9 +4838,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 5M 2M 5H superdash jML djML j214M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5LL 5M 2M 236S microdash 2M slight delay 5M 5S 5H superdash jML djML j2H',
+    video: '',
+  },
 
-    },
+],
   }
 )
 cptGinyu = Character.create!(
@@ -5481,9 +5561,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jML(2) j2H superdash jL(2)L j2H djL(2)LL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 236M 2M 5H superdash jL(2)L j2H djL(2)LL',
+    video: '',
+  },
 
-    },
+],
   }
 )
 cell = Character.create!(
@@ -6038,9 +6128,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLL djMLL j2H superdash jLLL jS 236L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M jLL djLL jS 214L(whiff) jLL jS superdash jLL jS 214L(whiff) jLL jS j2M vanish dragon rush 236S',
+    video: '',
+  },
 
-    },
+],
   }
 )
 cooler = Character.create!(
@@ -6784,9 +6884,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLL j2H superdash jMLLd jLL jS j236L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: 'jH 5LL 2M 5M jL j2H land 2M 6H 5S 5H superdash jLML djLL jS 214M M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 frieza = Character.create!(
@@ -7284,9 +7394,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 5M 2M(2) 5H superdash jM(2)L djLL(2) j2S j2H',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M(2) 2S 5M 2S superdash jM(2)L djLL(2) jS(3) j2H ',
+    video: '',
+  },
 
-    },
+],
   }
 )
 gogeta = Character.create!(
@@ -8025,9 +8145,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jLL(3)L superdash jLL(3) djLL(3)L j236LLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M superdash jH 5L(2)L 5M sjM(3)LL djLL(3)L jS j2S superdash jLL(3) j236LMM',
+    video: '',
+  },
 
-    },
+],
   }
 )
 adultGohan = Character.create!(
@@ -8772,9 +8902,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5L 2L 5M 2M 3H jMLL j2H superdash jMLL j2H jdLLL 2S(optional)',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 5S 3H jLH 236L land 5L (cancel after the first hit) jLM delay jH 236L land 5L jMLL j2H superdash jM j2H jLLL 2S 236LM',
+    video: '',
+  },
 
-    },
+],
   }
 )
 teenGohan = Character.create!(
@@ -9222,9 +9362,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jMLL djM jS j2S delay superdash jM slight delay jS j2S 236M LM delay LM airdash dragon rush',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M jM djM jSSSS 236M land 2L 5H superdash jM jH 236[L] 236LM',
+    video: '',
+  },
 
-    },
+],
   }
 )
 baseGoku = Character.create!(
@@ -9937,9 +10087,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H dj7L delay jL jS jLLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M superdash delay jM slight delay jS 5M/5LL jMLL j2H superdash jMLL j2H jLLL',
+    video: '',
+  },
 
-    },
+],
   }
 )
 ssjGoku = Character.create!(
@@ -10505,9 +10665,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLL jS 236L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: 'jML 5LL 5M 2M 214M land 2M 5S 5H 2S superdash jM j2H djLL jS 236L',
+    video: '',
+  },
 
-    },
+],
   }
 )
 blueGoku = Character.create!(
@@ -11201,9 +11371,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLL j214M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: 'jH 5LL 2M 5M jM j236M land 2M 5S 5H superdash jLL j2H jLL j214M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 gtGoku = Character.create!(
@@ -11780,9 +11960,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLHS superdash jLML djLL j2H',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: 'jML 5LL 5M 2M 236M 5LLL 214S hold 8 1S 214HS',
+    video: '',
+  },
 
-    },
+],
   }
 )
 gokuBlack = Character.create!(
@@ -12322,9 +12512,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: 'jH jS 5LL 2M 5M jMLL j2H superdash jMLL j2H djLL jS 236L vanish 236M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M jS 214M 5H 5S superdash jML j2H djLL',
+    video: '',
+  },
 
-    },
+],
   }
 )
 gotenks = Character.create!(
@@ -12871,9 +13071,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M  jML(3) j2H superdash jL(3)ML(1) j2H djLL(3)L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: 'jH 5LL 2M 5M sjL(3) jS[6] jLL jS j236[L] j214M superdash jML(3) j2H djL(3)LL',
+    video: '',
+  },
 
-    },
+],
   }
 )
 hit = Character.create!(
@@ -13616,9 +13826,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5M 2H superdash slight delay jLL j2H djLMLH',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2H 236M LLL 5LLL superdash jLL j2H djLLL',
+    video: '',
+  },
 
-    },
+],
   }
 )
 janemaba = Character.create!(
@@ -14316,9 +14536,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jM j2H superdash jML djMLL j2H jS(4) j2M 236HS',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 236M microdash 5LL 2M 5M 5H superdash jMLL djMLL j2H jS(4) j2M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 jiren = Character.create!(
@@ -14835,9 +15065,19 @@ assists: [
 ],
 
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2L 5LL 2M 5M 2S/2H superdash jM(2)L djLL(2)L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2L 5LL 2M 5S 236M 2L 5L 5M sjM(2)LL djM(1) j2S delay jLL(2) jS superdash jLL(2) j2S j2H',
+    video: '',
+  },
 
-    },
+],
   }
 )
 kidBuu = Character.create!(
@@ -15286,9 +15526,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 1M 5M(2) jMLL j2H superdash jLML j2H djLL(2)L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: 'jH 5LL 5M(2) 2M 5H 5S 2S 236M jLL j2H dj slight delay jLL(2) jS 236M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 kefla = Character.create!(
@@ -15752,9 +16002,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M(4) jM(2)LL j2H superdash jM(2)L j2H djLL(2)L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M(4) 2M 214M 2M 5M(4) 5H superdash jLL(2) j2H djLL(2) jS(4) j236S',
+    video: '',
+  },
 
-    },
+],
   }
 )
 krillin = Character.create!(
@@ -16413,9 +16673,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jM(2)L j2H superdash jM(2)L j2H djLL(2) jS j236M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 5H 5S 2S6 jLL(2) j2S superdash jLL(2) j2H djLL(2) jS 236M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 majinBuu = Character.create!(
@@ -17013,9 +17283,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 2S 5L jLL j214M superdash jMLL djLLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 2S microdash 5L 2S jLL jS(4) j214L superdash jMLL djLLL',
+    video: '',
+  },
 
-    },
+],
   })
 nappa = Character.create!(
   character: {
@@ -17763,9 +18043,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5M 2M 5S(1) 2H superdash jMLL djLLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 5S(2) 214S 236S sjLL djLL jS j2H superdash jLL jS j2H 236M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 piccolo = Character.create!(
@@ -18369,9 +18659,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jM(2)L j2H superdash jLL(2) j2H djLL(2) 214L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M jM(2) jH j2H superdash jM(1)LH j2Hd jLL(2)L 214M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 tien = Character.create!(
@@ -18917,9 +19217,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jML(2) j2H superdash jML(2) j2H jL(2)L j2H j236M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '2M 5M jML j2H superdash jML(2) j2H jL(2)L jS j214L',
+    video: '',
+  },
 
-    },
+],
   }
 )
 trunks = Character.create!(
@@ -19487,9 +19797,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 5S 214S 2M 5M 5H 5S 214L jS superdash jLL j2H djLML jS 214L jS 236M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 baseVegeta = Character.create!(
@@ -19969,9 +20289,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLL j2H 214L',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: 'jH 5LL 2M 5M jM j2H superdash jM jS jL delay jL jS jL delay jL jS jL delay jL jS jLL j2H jLLL',
+    video: '',
+  },
 
-    },
+],
   }
 )
 ssjVegeta = Character.create!(
@@ -20444,9 +20774,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M jMLL j2H superdash jMLL j2H djLLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 236M 5L(whiff) LL superdash jML j2H djLL jS(5) j214M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 blueVegeta = Character.create!(
@@ -21196,9 +21536,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 236MLM 2M 5H superdash airdash jM j2S land super jump jLML j2H djLL jS j2S 214L',
+    video: '',
+  },
 
-    },
+],
   }
 )
 vegito = Character.create!(
@@ -21696,9 +22046,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jML jS superdash jLL j2H djLML jS 214M',
+    video: '',
+  },
+  {
+    position: 'midscreen',
+    notation: 'jH 5LL 2M 5H jM 236M j2H djLLL jS superdash jLLL j2H 214L vanish dragon rush',
+    video: '',
+  },
 
-    },
+],
   }
 )
 videl = Character.create!(
@@ -22396,9 +22756,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '2M 5M 4M jML j2H superdash jML j2H djLLL',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5M 2M 5S 6H(3) 236MLLL airdash jLL jS 236M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 yamcha = Character.create!(
@@ -23043,9 +23413,19 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M 2H superdash jMLL djMLL 214M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: '5LLL microdash 2M 5M 2H superdash jMLL djLLL 214M',
+    video: '',
+  },
 
-    },
+],
   }
 )
 zamasu = Character.create!(
@@ -23836,55 +24216,23 @@ assists: [
 
 ],
 
-    combos: {
+combos: [
+  {
+    position: 'midscreen',
+    notation: '5LL 2M 5M jMLL djLL jS(3) 236S 236M',
+    video: '',
+  },
+  {
+    position: 'corner',
+    notation: 'jH 5LL 2M 5M 236S 2M delay 5M 5H superdash jMLL djLL jS(3) j2H',
+    video: '',
+  },
 
-    },
+],
   }
 )
 puts 'success'
 
-
-#
-# supers: [
-#   {
-#     "MOVE": '236LM',
-#     'STARTUP': '9',
-#     'ADVANTAGE': '-'
-#   },
-#   {
-#     'MOVE': 'j236LM',
-#     'STARTUP': '9',
-#     'ADVANTAGE': '-'
-#   },
-# {
-#   'MOVE': '214LM',
-#   'STARTUP': '9',
-#   'ADVANTAGE': '-'
-# },
-# {
-#   'MOVE': '214HS',
-#   'STARTUP': '31',
-#   'ADVANTAGE': '-'
-# }
-# ],
-# assists: [
-#   {
-#     'TYPE': 'A',
-#     'STARTUP': '29',
-#     'BLOCKSTUN': '22',
-#   },
-#   {
-#     'TYPE': 'B',
-#     'STARTUP': '31',
-#     'BLOCKSTUN': '43',
-#   },
-#   {
-#     'TYPE': 'C',
-#     'STARTUP': '46',
-#     'BLOCKSTUN': '50',
-#   },
-#
-# ],
 
 
 # character frame data
