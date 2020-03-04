@@ -1244,12 +1244,46 @@ android17 = Character.create!(
     "__1": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '10',
+    'BLOCKSTUN': '35',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '21',
+    'BLOCKSTUN': '23',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
-
+],
     combos: {
 
     },
@@ -1696,11 +1730,46 @@ android18 = Character.create!(
     "EXTENSION": "Super cancellable"
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '33',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '33',
+    'ADVANTAGE': '-30'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '10',
+    'BLOCKSTUN': '0',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '0',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -2424,11 +2493,46 @@ android21 = Character.create!(
     "EXTENSION": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '11',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '1',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '31',
+    'BLOCKSTUN': '25',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -2865,11 +2969,56 @@ bardock = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '10',
+    'ADVANTAGE': '-21'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '10',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '236HS',
+  'STARTUP': '4',
+  'ADVANTAGE': '-19'
+},
+{
+  'MOVE': 'j236HS',
+  'STARTUP': '4',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': '214LM',
+  'STARTUP': '4',
+  'ADVANTAGE': '-14'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '0'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '21',
+    'BLOCKSTUN': '27',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '36',
+    'BLOCKSTUN': '46',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '61',
+    'BLOCKSTUN': '35',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -3425,11 +3574,41 @@ beerus = Character.create!(
     "ANIMATION TOTAL": "68f - 10f land"
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '11',
+    'ADVANTAGE': '-9'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '11',
+    'ADVANTAGE': '-17'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '7',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '20',
+    'BLOCKSTUN': '20',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '36',
+    'BLOCKSTUN': '46',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '44',
+    'BLOCKSTUN': '17',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -3973,11 +4152,46 @@ dbsBroly = Character.create!(
     "__2": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-50'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '235HS',
+  'STARTUP': '9',
+  'ADVANTAGE': '-50'
+},
+{
+  'MOVE': '214LM',
+  'STARTUP': '10',
+  'ADVANTAGE': '-25'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '41',
+    'BLOCKSTUN': '23',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '21',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '41',
+    'BLOCKSTUN': '32',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -4503,11 +4717,56 @@ dbzBroly = Character.create!(
     "ANIMATION TOTAL": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '13',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '7',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': '214HS',
+  'STARTUP': '9',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': 'j214HS',
+  'STARTUP': '17',
+  'ADVANTAGE': '-'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '34',
+    'BLOCKSTUN': '21',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '38',
+    'BLOCKSTUN': '44',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '29',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -5161,11 +5420,66 @@ cptGinyu = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '13',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '45',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '45',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': '214HS',
+  'STARTUP': '9',
+  'ADVANTAGE': '-16'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '30',
+    'BLOCKSTUN': '33',
+  },
+  {
+    'TYPE': 'B (Guldo)',
+    'STARTUP': '39',
+    'BLOCKSTUN': '20',
+  },
+  {
+    'TYPE': 'B (Recoome)',
+    'STARTUP': '56',
+    'BLOCKSTUN': '35',
+  },
+  {
+    'TYPE': 'B (Burter)',
+    'STARTUP': '38',
+    'BLOCKSTUN': '44',
+  },
+  {
+    'TYPE': 'B (Jeice)',
+    'STARTUP': '39',
+    'BLOCKSTUN': '25',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -5688,11 +6002,41 @@ cell = Character.create!(
     "": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-28'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-26'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-34'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '42',
+    'BLOCKSTUN': '30',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '26',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '25',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -6399,11 +6743,46 @@ cooler = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '27',
+    'BLOCKSTUN': '26',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '41',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '37',
+    'BLOCKSTUN': '30',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -6854,11 +7233,56 @@ frieza = Character.create!(
     "__2": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '8',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '7',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '11',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '11',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': '214HS',
+  'STARTUP': '34',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': '214HS (Knocked Down)',
+  'STARTUP': '39',
+  'ADVANTAGE': '-'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '24',
+    'BLOCKSTUN': '23',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '20',
+    'BLOCKSTUN': '11',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '26',
+    'BLOCKSTUN': '22',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -7560,11 +7984,46 @@ gogeta = Character.create!(
     "__1": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '10',
+    'ADVANTAGE': '-24'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '10',
+    'ADVANTAGE': '-33'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '10',
+  'ADVANTAGE': '-29'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '35',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '21',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '61',
+    'BLOCKSTUN': '31',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -8282,11 +8741,36 @@ adultGohan = Character.create!(
     "": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-29'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-34'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '16',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '36',
+    'BLOCKSTUN': '40',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '35',
+    'BLOCKSTUN': '30',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -8706,11 +9190,37 @@ teenGohan = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-16'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '13',
+  'ADVANTAGE': '-34'
+},
 
-    ],
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '22',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '31',
+    'BLOCKSTUN': '28',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '35',
+  },
+
+],
 
     combos: {
 
@@ -9350,11 +9860,82 @@ baseGoku = Character.create!(
     "__3": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+  {
+    "MOVE": '236LM < 5L',
+    'STARTUP': '13',
+    'ADVANTAGE': '-29'
+  },
+  {
+    "MOVE": '236LM < 2L',
+    'STARTUP': '25',
+    'ADVANTAGE': '-34'
+  },
+  {
+    "MOVE": '236LM < 5M',
+    'STARTUP': '28',
+    'ADVANTAGE': '-34'
+  },
+  {
+    "MOVE": '236LM < 2M',
+    'STARTUP': '15',
+    'ADVANTAGE': '-34'
+  },
+  {
+    "MOVE": '236LM < 5S',
+    'STARTUP': '9',
+    'ADVANTAGE': '-31'
+  },
+  {
+    "MOVE": '236LM < 2S',
+    'STARTUP': '9',
+    'ADVANTAGE': '-34'
+  },
+  {
+    "MOVE": '236LM < LM',
+    'STARTUP': '19',
+    'ADVANTAGE': '-36'
+  },
+  {
+    "MOVE": '236LM < HS1',
+    'STARTUP': '1',
+    'ADVANTAGE': '-40'
+  },
+  {
+    "MOVE": '236LM < HS2',
+    'STARTUP': '1',
+    'ADVANTAGE': '-42'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '7',
+  'ADVANTAGE': '-11'
+},
 
-    ],
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '29',
+    'BLOCKSTUN': '37',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '-',
+    'BLOCKSTUN': '-',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '35',
+    'BLOCKSTUN': '32',
+  },
+
+],
 
     combos: {
 
@@ -9888,11 +10469,41 @@ ssjGoku = Character.create!(
     "__1": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-19'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '18',
+    'ADVANTAGE': '-19'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-14'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '35',
+    'BLOCKSTUN': '30',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '40',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -10554,11 +11165,41 @@ blueGoku = Character.create!(
     "__3": "Formerly only plus if landing lag cancelled to attack"
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '10',
+    'ADVANTAGE': '-26'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '10',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-18'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '25',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '61',
+    'BLOCKSTUN': '35',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -11103,11 +11744,41 @@ gtGoku = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '10',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': '214HS',
+  'STARTUP': '9',
+  'ADVANTAGE': '-19'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '30',
+    'BLOCKSTUN': '30',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '21',
+    'BLOCKSTUN': '32',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '61',
+    'BLOCKSTUN': '29',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -11600,11 +12271,56 @@ gokuBlack = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-24'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-30'
+  },
+  {
+    "MOVE": '236HS',
+    'STARTUP': '9',
+    'ADVANTAGE': '-30'
+  },
+  {
+    'MOVE': 'j236HS',
+    'STARTUP': '9',
+    'ADVANTAGE': '-33'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-38'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-30'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '35',
+    'BLOCKSTUN': '30',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '21',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '61',
+    'BLOCKSTUN': '32',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -12124,11 +12840,36 @@ gotenks = Character.create!(
     "__1": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '48',
+    'BLOCKSTUN': '46',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '31',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '35',
+    'BLOCKSTUN': '30',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -12834,11 +13575,46 @@ hit = Character.create!(
     "ANIMATION TOTAL": "101f"
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '236HS',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': '214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '26',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '41',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '61',
+    'BLOCKSTUN': '32',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -13494,11 +14270,51 @@ janemaba = Character.create!(
     "__3": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-8'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+  {
+    "MOVE": '236HS',
+    'STARTUP': '9',
+    'ADVANTAGE': '-17'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '12',
+  'ADVANTAGE': '-33'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '12',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '41',
+    'BLOCKSTUN': '50',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '31',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -13977,11 +14793,47 @@ jiren = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '27',
+    'BLOCKSTUN': '38',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '21',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
+
 
     combos: {
 
@@ -14393,11 +15245,46 @@ kidBuu = Character.create!(
     "EXTENSION": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '58',
+    'BLOCKSTUN': '58',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '30',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '35',
+    'BLOCKSTUN': '30',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -14819,11 +15706,51 @@ kefla = Character.create!(
     "ANIMATION TOTAL": "Minim 36f"
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-18'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '11',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '11',
+    'ADVANTAGE': '50'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '11',
+    'ADVANTAGE': '-20'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '21',
+  'ADVANTAGE': '-46'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '29',
+    'BLOCKSTUN': '22',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '31',
+    'BLOCKSTUN': '43',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -15455,11 +16382,36 @@ krillin = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-19'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '35'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '19',
+    'BLOCKSTUN': '19',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '35',
+    'BLOCKSTUN': '30',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '24',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -16030,11 +16982,36 @@ majinBuu = Character.create!(
     "__2": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '13',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '11',
+  'ADVANTAGE': '-'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '30',
+    'BLOCKSTUN': '20',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '41',
+    'BLOCKSTUN': '18',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '25',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -16754,11 +17731,37 @@ nappa = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '10',
+    'ADVANTAGE': '-21'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '10',
+  'ADVANTAGE': '-24'
+},
 
-    ],
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '29',
+    'BLOCKSTUN': '35',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '61',
+    'BLOCKSTUN': '32',
+  },
+
+],
 
     combos: {
 
@@ -17330,11 +18333,41 @@ piccolo = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '11',
+    'ADVANTAGE': '-17'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '9',
+    'ADVANTAGE': '65'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-35'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '28',
+    'BLOCKSTUN': '25',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '28',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '61',
+    'BLOCKSTUN': '29',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -17843,11 +18876,46 @@ tien = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '13',
+    'ADVANTAGE': '-20'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '13',
+    'ADVANTAGE': '-20'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '17',
+  'ADVANTAGE': '-42'
+},
+{
+  'MOVE': '214HS',
+  'STARTUP': '35',
+  'ADVANTAGE': '-42'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '30',
+    'BLOCKSTUN': '20',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '61',
+    'BLOCKSTUN': '40',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -18388,11 +19456,36 @@ trunks = Character.create!(
     "ANIMATION TOTAL": "26f"
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-27'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '31',
+    'BLOCKSTUN': '14',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '35',
+    'BLOCKSTUN': '30',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -18840,11 +19933,41 @@ baseVegeta = Character.create!(
     "EXTENSION": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '26',
+    'BLOCKSTUN': '18',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '35',
+    'BLOCKSTUN': '30',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -19280,11 +20403,46 @@ ssjVegeta = Character.create!(
     "EXTENSION": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-27'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '9',
+    'ADVANTAGE': '-26'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '14',
+  'ADVANTAGE': '-34'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '14',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '38',
+    'BLOCKSTUN': '46',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '31',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '18',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -20002,11 +21160,41 @@ blueVegeta = Character.create!(
     "": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '40',
+    'BLOCKSTUN': '33',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '26',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -20467,11 +21655,46 @@ vegito = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '10',
+    'ADVANTAGE': '-20'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '10',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-33'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '9',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '32',
+    'BLOCKSTUN': '-20',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '36',
+    'BLOCKSTUN': '42',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '61',
+    'BLOCKSTUN': '20',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -21132,11 +22355,46 @@ videl = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '-',
+    'STARTUP': '9',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': '236HS',
+    'STARTUP': '1',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '-',
+  'ADVANTAGE': '-'
+},
+{
+  'MOVE': '214HS (Knocked Down)',
+  'STARTUP': '38',
+  'ADVANTAGE': '-'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '26',
+    'BLOCKSTUN': '21',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '36',
+    'BLOCKSTUN': '46',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '29',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -21753,11 +23011,37 @@ yamcha = Character.create!(
   },
 
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '-',
+    'ADVANTAGE': '-'
+  },
 
-    ],
+{
+  'MOVE': '214LM',
+  'STARTUP': '3',
+  'ADVANTAGE': '-'
+},
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '20',
+    'BLOCKSTUN': '40',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '35',
+    'BLOCKSTUN': '30',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '50',
+  },
+
+],
 
     combos: {
 
@@ -22501,11 +23785,56 @@ zamasu = Character.create!(
     "__1": ""
   },
 ],
-    supers: [
-    ],
-    assists: [
+supers: [
+  {
+    "MOVE": '236LM',
+    'STARTUP': '7',
+    'ADVANTAGE': '-19'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '7',
+    'ADVANTAGE': '-19'
+  },
+  {
+    "MOVE": '236HS',
+    'STARTUP': '44',
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': 'j236LM',
+    'STARTUP': '44',
+    'ADVANTAGE': '-'
+  },
+{
+  'MOVE': '214LM',
+  'STARTUP': '13',
+  'ADVANTAGE': '-31'
+},
+{
+  'MOVE': 'j214LM',
+  'STARTUP': '13',
+  'ADVANTAGE': '-31'
+}
+],
+assists: [
+  {
+    'TYPE': 'A',
+    'STARTUP': '35',
+    'BLOCKSTUN': '22',
+  },
+  {
+    'TYPE': 'B',
+    'STARTUP': '21',
+    'BLOCKSTUN': '29',
+  },
+  {
+    'TYPE': 'C',
+    'STARTUP': '46',
+    'BLOCKSTUN': '29',
+  },
 
-    ],
+],
 
     combos: {
 
@@ -22515,7 +23844,7 @@ zamasu = Character.create!(
 puts 'success'
 
 
-
+#
 # supers: [
 #   {
 #     "MOVE": '236LM',
