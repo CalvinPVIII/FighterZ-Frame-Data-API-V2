@@ -418,8 +418,43 @@ android16 = Character.create!(
   }
 ],
   supers: [
+    {
+      "MOVE": '236LM',
+      'STARTUP': '9',
+      'ADVANTAGE' '-'
+    },
+    {
+      'MOVE': 'j236LM',
+      'STARTUP': '9',
+      'ADVANTAGE': '-'
+    },
+  {
+    'MOVE': '214LM',
+    'STARTUP': '9'
+    'ADVANTAGE': '-'
+  },
+  {
+    'MOVE': '214HS',
+    'STARTUP': '31',
+    'ADVANTAGE': '-'
+  }
   ],
   assists: [
+    {
+      'TYPE': 'A'
+      'STARTUP': '29',
+      'BLOCKSTUN': '22',
+    },
+    {
+      'TYPE': 'B'
+      'STARTUP': '31',
+      'BLOCKSTUN': '43',
+    },
+    {
+      'TYPE': 'C'
+      'STARTUP': '46',
+      'BLOCKSTUN': '50',
+    },
 
   ],
 
