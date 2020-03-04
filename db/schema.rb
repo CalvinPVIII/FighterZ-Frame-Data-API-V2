@@ -16,19 +16,7 @@ ActiveRecord::Schema.define(version: 2020_02_28_164618) do
   enable_extension "plpgsql"
 
   create_table "characters", force: :cascade do |t|
-    t.string "name"
-    t.string "tier"
-    t.string "image1"
-    t.string "image2"
-    t.string "icon"
-    t.json "l"
-    t.json "m"
-    t.json "h"
-    t.json "s"
-    t.json "specials"
-    t.json "assist"
-    t.json "super"
-    t.json "bnbs"
+    t.json "character"
   end
 
   create_table "tierlist", force: :cascade do |t|
