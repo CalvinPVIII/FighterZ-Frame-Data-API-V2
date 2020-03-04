@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: fighterz-frame-data-api
   pool: 5
-  username: sinatra
+  username: Guest
   password:
   timeout: 5000
 
@@ -49,6 +49,6 @@ test:
   encoding: unicode
   database: fighterz-frame-data-api
   pool: 5
-  username: sinatra
+  username: Guest 
   password:
   timeout: 5000

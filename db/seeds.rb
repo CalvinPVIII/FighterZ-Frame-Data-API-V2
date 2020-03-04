@@ -419,9 +419,9 @@ android16 = Character.create!(
 ],
   supers: [
     {
-      "MOVE": '236LM',
+      'MOVE': '236LM',
       'STARTUP': '9',
-      'ADVANTAGE' '-'
+      'ADVANTAGE': '-'
     },
     {
       'MOVE': 'j236LM',
@@ -430,7 +430,7 @@ android16 = Character.create!(
     },
   {
     'MOVE': '214LM',
-    'STARTUP': '9'
+    'STARTUP': '9',
     'ADVANTAGE': '-'
   },
   {
@@ -441,20 +441,20 @@ android16 = Character.create!(
   ],
   assists: [
     {
-      'TYPE': 'A'
+      'TYPE': 'A',
       'STARTUP': '29',
-      'BLOCKSTUN': '22',
+      'BLOCKSTUN': '22'
     },
     {
-      'TYPE': 'B'
+      'TYPE': 'B',
       'STARTUP': '31',
-      'BLOCKSTUN': '43',
+      'BLOCKSTUN': '43'
     },
     {
-      'TYPE': 'C'
+      'TYPE': 'C',
       'STARTUP': '46',
-      'BLOCKSTUN': '50',
-    },
+      'BLOCKSTUN': '50'
+    }
 
   ],
 
@@ -22520,7 +22520,7 @@ puts 'success'
 #   {
 #     "MOVE": '236LM',
 #     'STARTUP': '9',
-#     'ADVANTAGE' '-'
+#     'ADVANTAGE': '-'
 #   },
 #   {
 #     'MOVE': 'j236LM',
@@ -22529,7 +22529,7 @@ puts 'success'
 #   },
 # {
 #   'MOVE': '214LM',
-#   'STARTUP': '9'
+#   'STARTUP': '9',
 #   'ADVANTAGE': '-'
 # },
 # {
@@ -22540,17 +22540,17 @@ puts 'success'
 # ],
 # assists: [
 #   {
-#     'TYPE': 'A'
+#     'TYPE': 'A',
 #     'STARTUP': '29',
 #     'BLOCKSTUN': '22',
 #   },
 #   {
-#     'TYPE': 'B'
+#     'TYPE': 'B',
 #     'STARTUP': '31',
 #     'BLOCKSTUN': '43',
 #   },
 #   {
-#     'TYPE': 'C'
+#     'TYPE': 'C',
 #     'STARTUP': '46',
 #     'BLOCKSTUN': '50',
 #   },
