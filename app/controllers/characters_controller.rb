@@ -1,12 +1,13 @@
 class CharactersController < ApplicationController
 
   def index
+    # binding.pry
     if params[:name] != nil
-      @characters = Character.search_name(params[:name])
+      @characters = Character.where("character -> 'bio' ->> 'name' = ?", params[:name])
     else
       @characters = Character.all
-      json_response(@characters)
     end
+    json_response(@characters)
   end
 
   def show
