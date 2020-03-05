@@ -1,9 +1,8 @@
 class CharactersController < ApplicationController
 
   def index
-    # binding.pry
     if params[:name] != nil
-      @characters = Character.where("character -> 'bio' ->> 'name' = ?", params[:name])
+      @characters = Character.where("character -> 'bio' ->> 'name' like ?", params[:name].titleize)
     else
       @characters = Character.all
     end
