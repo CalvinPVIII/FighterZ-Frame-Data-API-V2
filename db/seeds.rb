@@ -8920,7 +8920,7 @@ combos: [
 teenGohan = Character.create!(
   character: {
     bio: {
-      name: 'character',
+      name: 'Teen Gohan',
       pictures: [],
       tier: 'S'
     },
