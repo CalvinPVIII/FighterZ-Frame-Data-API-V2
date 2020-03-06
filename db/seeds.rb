@@ -10684,7 +10684,7 @@ blueGoku = Character.create!(
   character: {
     bio: {
       name: 'Super Saiyan Blue Goku',
-      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_SSBGoku_Icon.png', '', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Goku%20(SSGSS).png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_SSB_Goku_Portrait.png'],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_SSBGoku_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/goku%20ssjb.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Goku%20(SSGSS).png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_SSB_Goku_Portrait.png'],
       tier: 'A'
     },
     moves: [
@@ -13090,7 +13090,7 @@ hit = Character.create!(
   character: {
     bio: {
       name: 'Hit',
-      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Hit_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/hit.jpg', '', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Hit_Portrait.png'],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Hit_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/hit.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Hit.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Hit_Portrait.png'],
       tier: 'B'
     },
     moves: [
