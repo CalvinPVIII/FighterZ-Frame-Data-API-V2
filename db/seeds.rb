@@ -4,7 +4,7 @@ android16 = Character.create!(
 
   bio: {
     name: 'Android 16',
-    pictures: [],
+    pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android16_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/android16.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Android%2016.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android16_Portrait.png'],
     tier: 'B'
   },
   moves: [
@@ -479,7 +479,7 @@ android17 = Character.create!(
   character: {
     bio: {
       name: 'Android 17',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android17_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/android17.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Android%2017.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android_17_Portrait.png'],
       tier: 'B'
     },
     moves: [
@@ -1313,7 +1313,7 @@ android18 = Character.create!(
   character: {
     bio: {
       name: 'Android 18',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android18_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/android18.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Android%2018.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android18_Portrait.png'],
       tier: 'A'
     },
     moves: [
@@ -1810,7 +1810,7 @@ android21 = Character.create!(
   character: {
     bio: {
       name: 'Android 21',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android21_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/android21.jpg','https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Android%2021.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android21_Portrait.png'],
       tier: 'A'
     },
     moves: [
@@ -2583,7 +2583,7 @@ bardock = Character.create!(
   character: {
     bio: {
       name: 'Bardock',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Bardock_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/bardock.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Bardock.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Bardock_Portrait.png'],
       tier: 'S'
     },
     moves: [
