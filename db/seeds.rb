@@ -3079,7 +3079,7 @@ beerus = Character.create!(
   character: {
     bio: {
       name: 'Beerus',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Beerus_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/beerus.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Beerus.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Beerus_Portrait.png'],
       tier: 'B'
     },
     moves: [
@@ -3679,7 +3679,7 @@ dbsBroly = Character.create!(
   character: {
     bio: {
       name: 'DBS Broly',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_DBSBroly_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/broly%20dbs.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Broly%20(DBS).png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_DBS_Broly_Portrait.png'],
       tier: 'A'
     },
     moves: [
@@ -4272,7 +4272,7 @@ dbzBroly = Character.create!(
   character: {
     bio: {
       name: 'DBZ Broly',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Broly_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/broly%20dbz.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Broly.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Broly_Portrait.png'],
       tier: 'A'
     },
     moves: [
@@ -4857,7 +4857,7 @@ cptGinyu = Character.create!(
   character: {
     bio: {
       name: 'Captin Ginyu',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Ginyu_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/cap%20ginyu.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Captain%20Ginyu.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Ginyu_Portrait.png'],
       tier: 'C'
     },
     moves: [
@@ -5580,7 +5580,7 @@ cell = Character.create!(
   character: {
     bio: {
       name: 'Cell',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Cell_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/cell.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Cell.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Cell_Portrait.png'],
       tier: 'A'
     },
     moves: [
@@ -6147,7 +6147,7 @@ cooler = Character.create!(
   character: {
     bio: {
       name: 'Cooler',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Cooler_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/cooler.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Cooler.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Cooler_Portrait.png'],
       tier: 'A'
     },
     moves:[
@@ -6903,7 +6903,7 @@ frieza = Character.create!(
   character: {
     bio: {
       name: 'Frieza',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Frieza_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/frieza.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Frieza.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Frieza_Portrait.png'],
       tier: 'B'
     },
     moves: [
@@ -7413,7 +7413,7 @@ gogeta = Character.create!(
   character: {
     bio: {
       name: 'Gogeta',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Gogeta_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/gogeta.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Gogeta%20(SSGSS).png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_SSB_Gogeta_Portrait.png'],
       tier: 'A'
     },
     moves: [
@@ -8164,7 +8164,7 @@ adultGohan = Character.create!(
   character: {
     bio: {
       name: 'Adult Gohan',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_AdultGohan_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/gohan%20adult.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Gohan%20(Adult).png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Adult_Gohan_Portrait.png'],
       tier: 'S'
     },
     moves: [
@@ -8921,7 +8921,7 @@ teenGohan = Character.create!(
   character: {
     bio: {
       name: 'Teen Gohan',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_TeenGohan_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/gohan%20teen.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Gohan%20(Teen).png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Teen_Gohan_Portrait.png'],
       tier: 'S'
     },
     moves: [
@@ -9381,7 +9381,7 @@ baseGoku = Character.create!(
   character: {
     bio: {
       name: 'Goku',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Goku_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/goku%20base.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Goku.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Goku_Portrait.png'],
       tier: 'A'
     },
     moves: [
@@ -10106,7 +10106,7 @@ ssjGoku = Character.create!(
   character: {
     bio: {
       name: 'Super Saiyan Goku',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_SSGoku_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/goku%20ssj.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Goku%20(Super%20Saiyan).png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_SS_Goku_Portrait.png'],
       tier: 'S'
     },
     moves: [
@@ -10684,7 +10684,7 @@ blueGoku = Character.create!(
   character: {
     bio: {
       name: 'Super Saiyan Blue Goku',
-      pictures: [],
+      pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_SSBGoku_Icon.png', ''],
       tier: 'A'
     },
     moves: [
