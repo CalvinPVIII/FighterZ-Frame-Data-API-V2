@@ -3,6 +3,8 @@ class CharactersController < ApplicationController
   def index
     if params[:name] != nil
       @characters = Character.where("character -> 'bio' ->> 'name' like ?", params[:name].titleize)
+    elsif params[:tier] != nil
+        @characters = Character.where("character -> 'bio' ->> 'tier' like ?", params[:tier].titleize)
     else
       @characters = Character.all
     end
