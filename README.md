@@ -2,3 +2,5 @@
 10-11 image editing
 11-12:30 more image editing and looking into embedded videos
 12:30 - 2 video editing
+2:30-3:30 break
+3:30- video editing
