@@ -13841,7 +13841,7 @@ combos: [
 ],
   }
 )
-janemaba = Character.create!(
+janemba = Character.create!(
   character: {
     bio: {
       name: 'Janemba',
@@ -24234,11 +24234,13 @@ combos: [
 Tier.destroy_all
 tier_list = Tier.create!(
   tiers: {
-  s: Character.where("character -> 'bio' ->> 'tier' like ?", 'S'),
-  a: Character.where("character -> 'bio' ->> 'tier' like ?", 'A'),
-  b: Character.where("character -> 'bio' ->> 'tier' like ?", 'B'),
-  c: Character.where("character -> 'bio' ->> 'tier' like ?", 'C')
+
+  s: [gtGoku, kidBuu, teenGohan, bardock, adultGohan, ssjGoku],
+  a: [cell, ssjVegeta, trunks, yamcha, android21, piccolo, baseGoku, gotenks, gogeta, android18, baseVegeta, vegito, blueGoku, zamasu, cooler, dbzBroly, dbsBroly, gokuBlack],
+  b: [android16, tien, janemba, android17, frieza, majinBuu, nappa, hit, beerus],
+  c: [jiren, krillin, blueVegeta, cptGinyu, videl]
 }
+
 )
 puts 'success'
 
