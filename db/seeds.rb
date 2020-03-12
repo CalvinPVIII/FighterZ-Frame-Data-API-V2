@@ -24234,11 +24234,10 @@ combos: [
 Tier.destroy_all
 tier_list = Tier.create!(
   tiers: {
-
-  s: [Character.where("character -> 'bio' ->> 'tier' like ?", 'S')],
-  a: [Character.where("character -> 'bio' ->> 'tier' like ?", 'A')],
-  b: [Character.where("character -> 'bio' ->> 'tier' like ?", 'B')],
-  c: [Character.where("character -> 'bio' ->> 'tier' like ?", 'C')]
+  s: Character.where("character -> 'bio' ->> 'tier' like ?", 'S'),
+  a: Character.where("character -> 'bio' ->> 'tier' like ?", 'A'),
+  b: Character.where("character -> 'bio' ->> 'tier' like ?", 'B'),
+  c: Character.where("character -> 'bio' ->> 'tier' like ?", 'C')
 }
 )
 puts 'success'
