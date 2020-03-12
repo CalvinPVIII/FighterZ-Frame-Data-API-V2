@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(version: 2020_02_28_164618) do
     t.json "character"
   end
 
-  create_table "tierlist", force: :cascade do |t|
-    t.json "tierlist"
+  create_table "tiers", force: :cascade do |t|
+    t.json "tiers"
   end
 
 end

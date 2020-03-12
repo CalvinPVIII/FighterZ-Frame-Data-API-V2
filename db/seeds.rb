@@ -462,12 +462,12 @@ android16 = Character.create!(
     {
       position: 'midscreen',
       notation: '2M 5M jM j2H superdash jML djL4LM jH delay j214L',
-      video: 'https://streamable.com/832fy',
+      video: 'https://streamable.com/s/832fy',
     },
     {
       position: 'corner',
       notation: '2M 5M jM djM jS(2) j236M(2) superdash jM djM jH jS(2) j214L',
-      video: 'https://streamable.com/hvrtg',
+      video: 'https://streamable.com/s/hvrtg',
     },
 
   ],
@@ -1298,12 +1298,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jMLL j2H superdash jLML j2H djLLL',
-    video: 'https://streamable.com/xn7yd',
+    video: 'https://streamable.com/s/xn7yd',
   },
   {
     position: 'corner',
     notation: '5M 2M 3H 5H 214LLMM 236MMMM2S',
-    video: 'https://streamable.com/fkdic',
+    video: 'https://streamable.com/s/fkdic',
   },
 
 ],
@@ -1795,12 +1795,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jMLL j2H j214M slight delay superdash jMLL j2H djLLL',
-    video: 'https://streamable.com/aceni',
+    video: 'https://streamable.com/s/aceni',
   },
   {
     position: 'corner',
     notation: '2M 5M jMLL j2H j214M superdash jML j2H jLLL',
-    video: 'https://streamable.com/t7gdd',
+    video: 'https://streamable.com/s/t7gdd',
   },
 
 ],
@@ -2568,12 +2568,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jM j2H superdash jMLL j2H djLL jS 214S/236S ~ L/M or 214M',
-    video: 'https://streamable.com/n1m8m',
+    video: 'https://streamable.com/s/n1m8m',
   },
   {
     position: 'corner',
     notation: '2M 5M jM jH j2H superdash jMH j2H djLLL jS 214S/236S L/M',
-    video: 'https://streamable.com/trvx2',
+    video: 'https://streamable.com/s/trvx2',
   },
 
 ],
@@ -3064,12 +3064,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M jM(2)L j2H superdash jM(2)L j2H DjLL(2)L',
-    video: 'https://streamable.com/h8aca',
+    video: 'https://streamable.com/s/h8aca',
   },
   {
     position: 'corner',
     notation: '2M 5M jM(1) jS 236M delay airdash jMS land 5LL IAD jL jS land 5LL 2M 5S 5H superdash jLL(2) j2H djLL(2) 214L',
-    video: 'https://streamable.com/9miiw',
+    video: 'https://streamable.com/s/9miiw',
   },
 
 ],
@@ -3664,12 +3664,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jMLL j2H superdash jLL djLML jS(3) j214M',
-    video: 'https://streamable.com/4y7pw',
+    video: 'https://streamable.com/s/4y7pw',
   },
   {
     position: 'corner',
     notation: '2M 5M 236M 2M 5H 5S 214L airdash jLM j236[L] sjLML djLML j2H j214M',
-    video: 'https://streamable.com/po1tn',
+    video: 'https://streamable.com/s/po1tn',
   },
 
 ],
@@ -4257,12 +4257,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 2M 5M jML j2H superdash jML djLL j236M',
-    video: 'https://streamable.com/axceu',
+    video: 'https://streamable.com/s/axceu',
   },
   {
     position: 'corner',
     notation: '2M 5M 236M 5L 2M 2M 5M jML j2H jS superdash jML djML jS j236M',
-    video: 'https://streamable.com/o33as',
+    video: 'https://streamable.com/s/o33as',
   },
 
 ],
@@ -4842,12 +4842,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 5M 2M 5H superdash jML djML j214M',
-    video: 'https://streamable.com/9mir9',
+    video: 'https://streamable.com/s/9mir9',
   },
   {
     position: 'corner',
     notation: '5LL 5M 2M 236S microdash 2M slight delay 5M 5S 5H superdash jML djML j2H',
-    video: 'https://streamable.com/pguxp',
+    video: 'https://streamable.com/s/pguxp',
   },
 
 ],
@@ -4856,7 +4856,7 @@ combos: [
 cptGinyu = Character.create!(
   character: {
     bio: {
-      name: 'Captin Ginyu',
+      name: 'Captain Ginyu',
       pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Ginyu_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/cap%20ginyu.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Captain%20Ginyu.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Ginyu_Portrait.png'],
       tier: 'C'
     },
@@ -5565,12 +5565,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jML(2) j2H superdash jL(2)L j2H djL(2)LL',
-    video: 'https://streamable.com/4df03',
+    video: 'https://streamable.com/s/4df03',
   },
   {
     position: 'corner',
     notation: '5M 2M 236M 2M 5H superdash jL(2)L j2H djL(2)LL',
-    video: 'https://streamable.com/9ocke',
+    video: 'https://streamable.com/s/9ocke',
   },
 
 ],
@@ -6132,12 +6132,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLL djMLL j2H superdash jLLL jS 236L',
-    video: 'https://streamable.com/qrs0l',
+    video: 'https://streamable.com/s/qrs0l',
   },
   {
     position: 'corner',
     notation: '2M 5M jLL djLL jS 214L(whiff) jLL jS superdash jLL jS 214L(whiff) jLL jS j2M vanish dragon rush 236S',
-    video: 'https://streamable.com/lb9xh',
+    video: 'https://streamable.com/s/lb9xh',
   },
 
 ],
@@ -6888,12 +6888,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLL j2H superdash jMLLd jLL jS j236L',
-    video: 'https://streamable.com/gj6r2',
+    video: 'https://streamable.com/s/gj6r2',
   },
   {
     position: 'corner',
     notation: 'jH 5LL 2M 5M jL j2H land 2M 6H 5S 5H superdash jLML djLL jS 214M M',
-    video: 'https://streamable.com/z99le',
+    video: 'https://streamable.com/s/z99le',
   },
 
 ],
@@ -7398,12 +7398,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 5M 2M(2) 5H superdash jM(2)L djLL(2) j2S j2H',
-    video: 'https://streamable.com/fszf3',
+    video: 'https://streamable.com/s/fszf3',
   },
   {
     position: 'corner',
     notation: '5M 2M(2) 2S 5M 2S superdash jM(2)L djLL(2) jS(3) j2H ',
-    video: 'https://streamable.com/n34zl',
+    video: 'https://streamable.com/s/n34zl',
   },
 
 ],
@@ -8149,12 +8149,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jLL(3)L superdash jLL(3) djLL(3)L j236LLL',
-    video: 'https://streamable.com/x0gfg',
+    video: 'https://streamable.com/s/x0gfg',
   },
   {
     position: 'corner',
     notation: '5M 2M superdash jH 5L(2)L 5M sjM(3)LL djLL(3)L jS j2S superdash jLL(3) j236LMM',
-    video: 'https://streamable.com/vjg1z',
+    video: 'https://streamable.com/s/vjg1z',
   },
 
 ],
@@ -8906,12 +8906,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5L 2L 5M 2M 3H jMLL j2H superdash jMLL j2H jdLLL 2S(optional)',
-    video: 'https://streamable.com/i8wxx',
+    video: 'https://streamable.com/s/i8wxx',
   },
   {
     position: 'corner',
     notation: '5M 2M 5S 3H jLH 236L land 5L (cancel after the first hit) jLM delay jH 236L land 5L jMLL j2H superdash jM j2H jLLL 2S 236LM',
-    video: 'https://streamable.com/fa3tn',
+    video: 'https://streamable.com/s/fa3tn',
   },
 
 ],
@@ -9366,12 +9366,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jMLL djM jS j2S delay superdash jM slight delay jS j2S 236M LM delay LM airdash dragon rush',
-    video: 'https://streamable.com/ghb4k',
+    video: 'https://streamable.com/s/ghb4k',
   },
   {
     position: 'corner',
     notation: '2M 5M jM djM jSSSS 236M land 2L 5H superdash jM jH 236[L] 236LM',
-    video: 'https://streamable.com/va246',
+    video: 'https://streamable.com/s/va246',
   },
 
 ],
@@ -10091,12 +10091,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H dj7L delay jL jS jLLL',
-    video: 'https://streamable.com/4ohdm',
+    video: 'https://streamable.com/s/4ohdm',
   },
   {
     position: 'corner',
     notation: '5M 2M superdash delay jM slight delay jS 5M/5LL jMLL j2H superdash jMLL j2H jLLL',
-    video: 'https://streamable.com/boqs7',
+    video: 'https://streamable.com/s/boqs7',
   },
 
 ],
@@ -10669,12 +10669,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLL jS 236L',
-    video: 'https://streamable.com/cz0yj',
+    video: 'https://streamable.com/s/cz0yj',
   },
   {
     position: 'corner',
     notation: 'jML 5LL 5M 2M 214M land 2M 5S 5H 2S superdash jM j2H djLL jS 236L',
-    video: 'https://streamable.com/h5eea',
+    video: 'https://streamable.com/s/h5eea',
   },
 
 ],
@@ -11375,12 +11375,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLL j214M',
-    video: 'https://streamable.com/9mkte',
+    video: 'https://streamable.com/s/9mkte',
   },
   {
     position: 'corner',
     notation: 'jH 5LL 2M 5M jM j236M land 2M 5S 5H superdash jLL j2H jLL j214M',
-    video: 'https://streamable.com/ftl2v',
+    video: 'https://streamable.com/s/ftl2v',
   },
 
 ],
@@ -11964,12 +11964,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLHS superdash jLML djLL j2H',
-    video: 'https://streamable.com/ygrse',
+    video: 'https://streamable.com/s/ygrse',
   },
   {
     position: 'corner',
     notation: 'jML 5LL 5M 2M 236M 5LLL 214S hold 8 1S 214HS',
-    video: 'https://streamable.com/wbh0r',
+    video: 'https://streamable.com/s/wbh0r',
   },
 
 ],
@@ -12516,12 +12516,12 @@ combos: [
   {
     position: 'midscreen',
     notation: 'jH jS 5LL 2M 5M jMLL j2H superdash jMLL j2H djLL jS 236L vanish 236M',
-    video: 'https://streamable.com/rbwst',
+    video: 'https://streamable.com/s/rbwst',
   },
   {
     position: 'corner',
     notation: '2M 5M jS 214M 5H 5S superdash jML j2H djLL',
-    video: 'https://streamable.com/2so4m',
+    video: 'https://streamable.com/s/2so4m',
   },
 
 ],
@@ -13075,12 +13075,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M  jML(3) j2H superdash jL(3)ML(1) j2H djLL(3)L',
-    video: 'https://streamable.com/mop2p',
+    video: 'https://streamable.com/s/mop2p',
   },
   {
     position: 'corner',
     notation: 'jH 5LL 2M 5M sjL(3) jS[6] jLL jS j236[L] j214M superdash jML(3) j2H djL(3)LL',
-    video: 'https://streamable.com/h1w8n',
+    video: 'https://streamable.com/s/h1w8n',
   },
 
 ],
@@ -13830,12 +13830,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5M 2H superdash slight delay jLL j2H djLMLH',
-    video: 'https://streamable.com/tfdtl',
+    video: 'https://streamable.com/s/tfdtl',
   },
   {
     position: 'corner',
     notation: '5M 2H 236M LLL 5LLL superdash jLL j2H djLLL',
-    video: 'https://streamable.com/b7f0m',
+    video: 'https://streamable.com/s/b7f0m',
   },
 
 ],
@@ -14540,12 +14540,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jM j2H superdash jML djMLL j2H jS(4) j2M 236HS',
-    video: 'https://streamable.com/051hz',
+    video: 'https://streamable.com/s/051hz',
   },
   {
     position: 'corner',
     notation: '5M 2M 236M microdash 5LL 2M 5M 5H superdash jMLL djMLL j2H jS(4) j2M',
-    video: 'https://streamable.com/9q0fa',
+    video: 'https://streamable.com/s/9q0fa',
   },
 
 ],
@@ -15069,12 +15069,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2L 5LL 2M 5M 2S/2H superdash jM(2)L djLL(2)L',
-    video: 'https://streamable.com/41e4s',
+    video: 'https://streamable.com/s/41e4s',
   },
   {
     position: 'corner',
     notation: '2L 5LL 2M 5S 236M 2L 5L 5M sjM(2)LL djM(1) j2S delay jLL(2) jS superdash jLL(2) j2S j2H',
-    video: 'https://streamable.com/12n60',
+    video: 'https://streamable.com/s/12n60',
   },
 
 ],
@@ -15530,12 +15530,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 1M 5M(2) jMLL j2H superdash jLML j2H djLL(2)L',
-    video: 'https://streamable.com/akewr',
+    video: 'https://streamable.com/s/akewr',
   },
   {
     position: 'corner',
     notation: 'jH 5LL 5M(2) 2M 5H 5S 2S 236M jLL j2H dj slight delay jLL(2) jS 236M',
-    video: 'https://streamable.com/2ykpy',
+    video: 'https://streamable.com/s/2ykpy',
   },
 
 ],
@@ -16006,12 +16006,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M(4) jM(2)LL j2H superdash jM(2)L j2H djLL(2)L',
-    video: 'https://streamable.com/vhz2n',
+    video: 'https://streamable.com/s/vhz2n',
   },
   {
     position: 'corner',
     notation: '5M(4) 2M 214M 2M 5M(4) 5H superdash jLL(2) j2H djLL(2) jS(4) j236S',
-    video: 'https://streamable.com/qrnte',
+    video: 'https://streamable.com/s/qrnte',
   },
 
 ],
@@ -16677,12 +16677,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jM(2)L j2H superdash jM(2)L j2H djLL(2) jS j236M',
-    video: 'https://streamable.com/zs7da',
+    video: 'https://streamable.com/s/zs7da',
   },
   {
     position: 'corner',
     notation: '5M 2M 5H 5S 2S6 jLL(2) j2S superdash jLL(2) j2H djLL(2) jS 236M',
-    video: 'https://streamable.com/4f0hy',
+    video: 'https://streamable.com/s/4f0hy',
   },
 
 ],
@@ -17287,12 +17287,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 2S 5L jLL j214M superdash jMLL djLLL',
-    video: 'https://streamable.com/6hkhb',
+    video: 'https://streamable.com/s/6hkhb',
   },
   {
     position: 'corner',
     notation: '2M 2S microdash 5L 2S jLL jS(4) j214L superdash jMLL djLLL',
-    video: 'https://streamable.com/0671c',
+    video: 'https://streamable.com/s/0671c',
   },
 
 ],
@@ -18047,12 +18047,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5M 2M 5S(1) 2H superdash jMLL djLLL',
-    video: 'https://streamable.com/8xfd5',
+    video: 'https://streamable.com/s/8xfd5',
   },
   {
     position: 'corner',
     notation: '5M 2M 5S(2) 214S 236S sjLL djLL jS j2H superdash jLL jS j2H 236M',
-    video: 'https://streamable.com/o5den',
+    video: 'https://streamable.com/s/o5den',
   },
 
 ],
@@ -18663,12 +18663,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jM(2)L j2H superdash jLL(2) j2H djLL(2) 214L',
-    video: 'https://streamable.com/yqeow',
+    video: 'https://streamable.com/s/yqeow',
   },
   {
     position: 'corner',
     notation: '2M 5M jM(2) jH j2H superdash jM(1)LH j2Hd jLL(2)L 214M',
-    video: 'https://streamable.com/tokkx',
+    video: 'https://streamable.com/s/tokkx',
   },
 
 ],
@@ -19221,12 +19221,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jML(2) j2H superdash jML(2) j2H jL(2)L j2H j236M',
-    video: 'https://streamable.com/lmxy1',
+    video: 'https://streamable.com/s/lmxy1',
   },
   {
     position: 'corner',
     notation: '2M 5M jML j2H superdash jML(2) j2H jL(2)L jS j214L',
-    video: 'https://streamable.com/zf2v1',
+    video: 'https://streamable.com/s/zf2v1',
   },
 
 ],
@@ -19801,12 +19801,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLLL',
-    video: 'https://streamable.com/klgli',
+    video: 'https://streamable.com/s/klgli',
   },
   {
     position: 'corner',
     notation: '5M 2M 5S 214S 2M 5M 5H 5S 214L jS superdash jLL j2H djLML jS 214L jS 236M',
-    video: 'https://streamable.com/8updn',
+    video: 'https://streamable.com/s/8updn',
   },
 
 ],
@@ -20293,12 +20293,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLL j2H 214L',
-    video: 'https://streamable.com/gc0pl',
+    video: 'https://streamable.com/s/gc0pl',
   },
   {
     position: 'corner',
     notation: 'jH 5LL 2M 5M jM j2H superdash jM jS jL delay jL jS jL delay jL jS jL delay jL jS jLL j2H jLLL',
-    video: 'https://streamable.com/iklzq',
+    video: 'https://streamable.com/s/iklzq',
   },
 
 ],
@@ -20778,12 +20778,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M jMLL j2H superdash jMLL j2H djLLL',
-    video: 'https://streamable.com/07hki',
+    video: 'https://streamable.com/s/07hki',
   },
   {
     position: 'corner',
     notation: '5M 2M 236M 5L(whiff) LL superdash jML j2H djLL jS(5) j214M',
-    video: 'https://streamable.com/jirrw',
+    video: 'https://streamable.com/s/jirrw',
   },
 
 ],
@@ -21540,12 +21540,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLL j2H superdash jMLL j2H djLLL',
-    video: 'https://streamable.com/9nlzu',
+    video: 'https://streamable.com/s/9nlzu',
   },
   {
     position: 'corner',
     notation: '5M 2M 236MLM 2M 5H superdash airdash jM j2S land super jump jLML j2H djLL jS j2S 214L',
-    video: 'https://streamable.com/lqn4s',
+    video: 'https://streamable.com/s/lqn4s',
   },
 
 ],
@@ -22050,12 +22050,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jML jS superdash jLL j2H djLML jS 214M',
-    video: 'https://streamable.com/36i0d',
+    video: 'https://streamable.com/s/36i0d',
   },
   {
     position: 'midscreen',
     notation: 'jH 5LL 2M 5H jM 236M j2H djLLL jS superdash jLLL j2H 214L vanish dragon rush',
-    video: 'https://streamable.com/vez3c',
+    video: 'https://streamable.com/s/vez3c',
   },
 
 ],
@@ -22760,12 +22760,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '2M 5M 4M jML j2H superdash jML j2H djLLL',
-    video: 'https://streamable.com/dk86p',
+    video: 'https://streamable.com/s/dk86p',
   },
   {
     position: 'corner',
     notation: '5M 2M 5S 6H(3) 236MLLL airdash jLL jS 236M',
-    video: 'https://streamable.com/kwf6n',
+    video: 'https://streamable.com/s/kwf6n',
   },
 
 ],
@@ -23417,12 +23417,12 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M 2H superdash jMLL djMLL 214M',
-    video: 'https://streamable.com/hxscx',
+    video: 'https://streamable.com/s/hxscx',
   },
   {
     position: 'corner',
     notation: '5LLL microdash 2M 5M 2H superdash jMLL djLLL 214M',
-    video: 'https://streamable.com/qvkks',
+    video: 'https://streamable.com/s/qvkks',
   },
 
 ],
@@ -24220,18 +24220,30 @@ combos: [
   {
     position: 'midscreen',
     notation: '5LL 2M 5M jMLL djLL jS(3) 236S 236M',
-    video: 'https://streamable.com/gwzc1',
+    video: 'https://streamable.com/s/s/gwzc1',
   },
   {
     position: 'corner',
     notation: 'jH 5LL 2M 5M 236S 2M delay 5M 5H superdash jMLL djLL jS(3) j2H',
-    video: 'https://streamable.com/gznas',
+    video: 'https://streamable.com/s/gznas',
   },
 
 ],
   }
 )
+Tier.destroy_all
+tier_list = Tier.create!(
+  tiers: {
+
+  s: [Character.where("character -> 'bio' ->> 'tier' like ?", 'S')],
+  a: [Character.where("character -> 'bio' ->> 'tier' like ?", 'A')],
+  b: [Character.where("character -> 'bio' ->> 'tier' like ?", 'B')],
+  c: [Character.where("character -> 'bio' ->> 'tier' like ?", 'C')]
+}
+)
 puts 'success'
+
+
 
 
 
