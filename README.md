@@ -1,20 +1,42 @@
-Name of Project: Dragon Ball Fighterz Frame Data Front End + API
+# _FighterZ Frame Data API_
 
-Project's Purpose or Goal: Provide players of the game Dragon Ball Fighterz the frame data for all the characters in an easy to digest, straight to the point, and stylish manner
+#### _Frame Data for Dragon Ball FighterZ, 3/12/2020_
 
-List the absolute minimum features the project requires to meet this purpose or goal:
+#### By _**Calvin Will**_
 
-Frame data for the most popular characters (Expanding to all is a high priority)
-'Character Select' screen that lets users choose the character they want to see data for
-An explanation to newer players as to what frame data is, the notations of the moves, and why frame data is important to know
-What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+## Description
+_FighterZ Frame Data API is an API that provides users with a comprehensive list of frame data for all the characters in the game Dragon Ball FighterZ. A website that has more stream lined information can be found [here](https://github.com/CalvinPVIII/FighterZ-Frame-Data).
+The frame data is being pulled from [this spreadsheet made by Turtleon](https://docs.google.com/spreadsheets/d/1-p29UmRGIPF6n17ddOEtYfLcn_KRlE2VH6tE61P5UM8/edit#gid=1043945512). The combo videos are from YouTube user [KuwangerLR](https://www.youtube.com/channel/UCxJK-tYPajZtdsjhgk5rIwA)_
 
-Ruby/Rails (Storing the data in an API)
-React (Front end site that calls API to display data)
-If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
-Expand data to include all characters in the game
-Basic 'BnB' combos that give a starting point as to what each character can do
-Videos/Gifs of each combo
-Calculator to see which move 'beats' another move
-Team synergy tracker that lets users input their team and see how well they synergize 
+## Setup/Installation Requirements
+**Ruby 2.6.5 and Rails 2.5.1 is required**
+* _Clone from GitHub_
+* _Navigate to the projet folder_
+* _run the command "rake db:create"_
+* _run the command "rake db:migrate"_
+* _run the command "rake db:seed"_
+* _run the command "rails s"_
+* _If used in conjuction with FighterZ Frame Data Front End, run "rails s -p 3001" instead_
+
+
+
+## Known Bugs
+
+_Currently there are no known bugs_
+
+## Support and contact details
+
+_For questions comments and concerns, email me at calvinp003@gmail.com_
+
+## Technologies Used
+
+* _Ruby_
+* _Rails_
+
+### License
+
+Dragon Ball, Dragon Ball Z, Dragon Ball GT, and all related characters, images and logos are registered trademarks of Toei Animation and FUNimation in the United States and other countries.
+
+© BIRD STUDIO / SHUIESHA,  TOEI ANIMATION
+Dragon Ball FighterZ © BANDAI NAMCO ENTERTAINMENT

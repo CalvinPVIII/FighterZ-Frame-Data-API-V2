@@ -24236,7 +24236,7 @@ tier_list = Tier.create!(
   tiers: {
 
   s: [gtGoku, kidBuu, teenGohan, bardock, adultGohan, ssjGoku],
-  a: [cell, ssjVegeta, trunks, yamcha, android21, piccolo, baseGoku, gotenks, gogeta, android18, baseVegeta, vegito, blueGoku, zamasu, cooler, dbzBroly, dbsBroly, gokuBlack],
+  a: [cell, ssjVegeta, trunks, yamcha, android21, piccolo, baseGoku, kefla, gotenks, gogeta, android18, baseVegeta, vegito, blueGoku, zamasu, cooler, dbzBroly, dbsBroly, gokuBlack],
   b: [android16, tien, janemba, android17, frieza, majinBuu, nappa, hit, beerus],
   c: [jiren, krillin, blueVegeta, cptGinyu, videl]
 }
