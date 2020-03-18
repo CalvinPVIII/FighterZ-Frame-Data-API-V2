@@ -9,6 +9,23 @@ _FighterZ Frame Data API is an API that provides users with a comprehensive list
 The frame data is being pulled from [this spreadsheet made by Turtleon](https://docs.google.com/spreadsheets/d/1-p29UmRGIPF6n17ddOEtYfLcn_KRlE2VH6tE61P5UM8/edit#gid=1043945512). The combo videos are from YouTube user [KuwangerLR](https://www.youtube.com/channel/UCxJK-tYPajZtdsjhgk5rIwA)_
 
 
+
+## Endpoints
+##### /characters
+Gives you a list of all the characters and their info
+##### /characters/id
+Gives you the info for the character with the matching id
+##### /characters?name=
+Gives you the info for the character with the matching name parameter.
+
+Example: /characters?name=bardock gives you just Bardock
+##### /tiers
+Gives you a list of all the characters and their info formatted into tiers
+##### /tiers?tier=
+Gives you a list of all the characters that belong to a specific tier
+
+Example: /tiers?tier=s gives you only S tier characters
+
 ## Setup/Installation Requirements
 **Ruby 2.6.5 and Rails 2.5.1 is required**
 * _Clone from GitHub_
