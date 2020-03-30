@@ -117,18 +117,6 @@ android16 = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "8f",
     "ACTIVE": "10f",
@@ -189,18 +177,6 @@ android16 = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
-  },
-  {
     "MOVE": "236L",
     "FIRST ACTIVE": "17f",
     "ACTIVE": "1f",
@@ -235,18 +211,6 @@ android16 = Character.create!(
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "Ki-blast invuln 3f - 25f",
     "EXTENSION": "WALL BOUNCE ; SKD"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "j.236L",
@@ -285,18 +249,6 @@ android16 = Character.create!(
     "EXTENSION": "Counsumes Smash"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "214L",
     "FIRST ACTIVE": "10f",
     "ACTIVE": "11f",
@@ -333,18 +285,6 @@ android16 = Character.create!(
     "EXTENSION": "Counsumes Smash"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.214L",
     "FIRST ACTIVE": "10f",
     "ACTIVE": "11f",
@@ -379,18 +319,6 @@ android16 = Character.create!(
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "",
     "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "236S",
@@ -1438,18 +1366,6 @@ android18 = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "7f",
     "ACTIVE": "3f",
@@ -1508,18 +1424,6 @@ android18 = Character.create!(
     "PRORATION init/comb": "80% / +1",
     "SPECIAL": "",
     "EXTENSION": ""
-  },
-  {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
   },
   {
     "MOVE": "236L",
@@ -1582,18 +1486,6 @@ android18 = Character.create!(
     "EXTENSION": "INITIAL SMASH"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "214L",
     "FIRST ACTIVE": "14f",
     "ACTIVE": "8f",
@@ -1642,18 +1534,6 @@ android18 = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.214L",
     "FIRST ACTIVE": "20f",
     "ACTIVE": "3f",
@@ -1698,18 +1578,6 @@ android18 = Character.create!(
     "GUARD": "All",
     "DAMAGE": "-",
     "PRORATION init/comb": "Gain 0,25bar per absorbed hit, Summon appears at 13f",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
     "SPECIAL": "",
     "EXTENSION": ""
   },
@@ -1947,18 +1815,6 @@ android21 = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "6f",
     "ACTIVE": "3f",
@@ -2017,18 +1873,6 @@ android21 = Character.create!(
     "PRORATION init/comb": "80% / +1 +1 +1",
     "SPECIAL": "",
     "EXTENSION": ""
-  },
-  {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
   },
   {
     "MOVE": "236L",
@@ -2115,18 +1959,6 @@ android21 = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "214L",
     "FIRST ACTIVE": "12f",
     "ACTIVE": "until lands / 3f landing",
@@ -2161,18 +1993,6 @@ android21 = Character.create!(
     "PRORATION init/comb": "90% +1 / +2 (2nd hit scales)",
     "SPECIAL": "",
     "EXTENSION": "INITIAL SMASH, Bounce"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "j.214L",
@@ -2211,18 +2031,6 @@ android21 = Character.create!(
     "EXTENSION": "INITIAL SMASH, Bounce"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "236S",
     "FIRST ACTIVE": "27f",
     "ACTIVE": "1f",
@@ -2247,18 +2055,6 @@ android21 = Character.create!(
     "EXTENSION": "214X cancellable"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.236S",
     "FIRST ACTIVE": "13f",
     "ACTIVE": "3f",
@@ -2281,18 +2077,6 @@ android21 = Character.create!(
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "",
     "EXTENSION": "214X cancellable"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "236S",
@@ -2340,18 +2124,6 @@ android21 = Character.create!(
     "DAMAGE": 1400,
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "Air invuln 1f - 20f",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
     "EXTENSION": ""
   },
   {
@@ -2403,18 +2175,6 @@ android21 = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "236S",
     "FIRST ACTIVE": "18f",
     "ACTIVE": "25f",
@@ -2460,18 +2220,6 @@ android21 = Character.create!(
     "DAMAGE": 0,
     "PRORATION init/comb": "90% / +0",
     "SPECIAL": "air invuln 4f - 10f",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
     "EXTENSION": ""
   },
   {
@@ -2696,18 +2444,6 @@ bardock = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "6f",
     "ACTIVE": "3f",
@@ -2768,18 +2504,6 @@ bardock = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
-  },
-  {
     "MOVE": "236L",
     "FIRST ACTIVE": "10f",
     "ACTIVE": "7f",
@@ -2826,18 +2550,6 @@ bardock = Character.create!(
     "PRORATION init/comb": "- / +1 +1",
     "SPECIAL": "",
     "EXTENSION": "Juggle"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "j.236L",
@@ -2888,18 +2600,6 @@ bardock = Character.create!(
     "EXTENSION": "Juggle"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "214L",
     "FIRST ACTIVE": "10f ; 24f",
     "ACTIVE": "10f ; 5f",
@@ -2936,18 +2636,6 @@ bardock = Character.create!(
     "EXTENSION": "Bounce, SKD"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.214L",
     "FIRST ACTIVE": "11f ; 23f",
     "ACTIVE": "8f ; 5f",
@@ -2982,18 +2670,6 @@ bardock = Character.create!(
     "PRORATION init/comb": "80% / +1",
     "SPECIAL": "",
     "EXTENSION": "Bounce, SKD"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "236S",
@@ -11527,18 +11203,6 @@ gtGoku = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "6f",
     "ACTIVE": "4f",
@@ -11611,18 +11275,6 @@ gtGoku = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
-  },
-  {
     "MOVE": "236L",
     "FIRST ACTIVE": "9f",
     "ACTIVE": "6f",
@@ -11657,18 +11309,6 @@ gtGoku = Character.create!(
     "PRORATION init/comb": "80% +1 / +1 +1",
     "SPECIAL": "",
     "EXTENSION": "INITIAL SMASH"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "j.236L",
@@ -11707,18 +11347,6 @@ gtGoku = Character.create!(
     "EXTENSION": "INITIAL SMASH"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "214L",
     "FIRST ACTIVE": "15f",
     "ACTIVE": "19f",
@@ -11755,18 +11383,6 @@ gtGoku = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.214L",
     "FIRST ACTIVE": "13f",
     "ACTIVE": "19f",
@@ -11800,18 +11416,6 @@ gtGoku = Character.create!(
     "DAMAGE": "900 + 100 x5",
     "PRORATION init/comb": "80% / +1",
     "SPECIAL": "Tracks opponent",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
     "EXTENSION": ""
   },
   {
@@ -11859,18 +11463,6 @@ gtGoku = Character.create!(
     "GUARD": "All",
     "DAMAGE": "262 + 262 x4",
     "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
     "SPECIAL": "",
     "EXTENSION": ""
   },
@@ -15221,18 +14813,6 @@ kidBuu = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "6f",
     "ACTIVE": "3f",
@@ -15293,18 +14873,6 @@ kidBuu = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
-  },
-  {
     "MOVE": "236L",
     "FIRST ACTIVE": "14f",
     "ACTIVE": "4f",
@@ -15339,18 +14907,6 @@ kidBuu = Character.create!(
     "PRORATION init/comb": "80% / +1",
     "SPECIAL": "Airborne at 6f",
     "EXTENSION": "Bounce"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "j.236L",
@@ -15389,18 +14945,6 @@ kidBuu = Character.create!(
     "EXTENSION": "Bounce"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "214L",
     "FIRST ACTIVE": "13f",
     "ACTIVE": "5f",
@@ -15435,18 +14979,6 @@ kidBuu = Character.create!(
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "Air invuln 1f - 13f",
     "EXTENSION": "Initial: Bounce, Combo: SKD"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "236S",
@@ -15690,20 +15222,6 @@ kefla = Character.create!(
     "ANIMATION TOTAL": "36f"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": "",
-    "": "",
-    "ANIMATION TOTAL": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "6f",
     "ACTIVE": "3f",
@@ -15772,20 +15290,6 @@ kefla = Character.create!(
     "EXTENSION": "",
     "": "",
     "ANIMATION TOTAL": "37f"
-  },
-  {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION",
-    "": "",
-    "ANIMATION TOTAL": ""
   },
   {
     "MOVE": "236L",
@@ -18791,18 +18295,6 @@ tien = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "6f ; 11f",
     "ACTIVE": "2f ; 2f",
@@ -18861,18 +18353,6 @@ tien = Character.create!(
     "PRORATION init/comb": "80% / +1",
     "SPECIAL": "",
     "EXTENSION": ""
-  },
-  {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
   },
   {
     "MOVE": "236L",
@@ -18983,18 +18463,6 @@ tien = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.236L",
     "FIRST ACTIVE": "15f",
     "ACTIVE": "3f",
@@ -19029,18 +18497,6 @@ tien = Character.create!(
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "",
     "EXTENSION": "SMASH, SKD"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "214L",
@@ -19079,18 +18535,6 @@ tien = Character.create!(
     "EXTENSION": "SKD, BOUNCE"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.214L",
     "FIRST ACTIVE": "22f",
     "ACTIVE": "Until lands",
@@ -19125,18 +18569,6 @@ tien = Character.create!(
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "",
     "EXTENSION": "SKD, BOUNCE"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "236S",
@@ -19941,18 +19373,6 @@ baseVegeta = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "6f",
     "ACTIVE": "3f",
@@ -20025,18 +19445,6 @@ baseVegeta = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
-  },
-  {
     "MOVE": "236L",
     "FIRST ACTIVE": "11f",
     "ACTIVE": "6f",
@@ -20070,18 +19478,6 @@ baseVegeta = Character.create!(
     "DAMAGE": 1300,
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "invuln 5f - 19f~26f (invuln until appears), INITIAL SMASH",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
     "EXTENSION": ""
   },
   {
@@ -20121,18 +19517,6 @@ baseVegeta = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "214L",
     "FIRST ACTIVE": "26f ~ 33f",
     "ACTIVE": "until lands ; 3f landing",
@@ -20169,18 +19553,6 @@ baseVegeta = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.214L",
     "FIRST ACTIVE": "26f ~ 33f",
     "ACTIVE": "until lands ; 3f landing",
@@ -20214,18 +19586,6 @@ baseVegeta = Character.create!(
     "DAMAGE": 1200,
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "invuln 9f - 13f~20f (invuln until appears)",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
     "EXTENSION": ""
   },
   {
@@ -20421,18 +19781,6 @@ ssjVegeta = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "6f",
     "ACTIVE": "3f",
@@ -20505,18 +19853,6 @@ ssjVegeta = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
-  },
-  {
     "MOVE": "236L",
     "FIRST ACTIVE": "11f",
     "ACTIVE": "6f",
@@ -20551,18 +19887,6 @@ ssjVegeta = Character.create!(
     "PRORATION init/comb": "80% / +1",
     "SPECIAL": "",
     "EXTENSION": "INITIAL SMASH"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "j.236L",
@@ -20601,18 +19925,6 @@ ssjVegeta = Character.create!(
     "EXTENSION": "INITIAL SMASH"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "214L",
     "FIRST ACTIVE": "9f",
     "ACTIVE": "9f",
@@ -20649,18 +19961,6 @@ ssjVegeta = Character.create!(
     "EXTENSION": "INITIAL SMASH, Bounce SKD"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.214L",
     "FIRST ACTIVE": "9f",
     "ACTIVE": "9f",
@@ -20695,18 +19995,6 @@ ssjVegeta = Character.create!(
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "Invuln 1f - 11f",
     "EXTENSION": "INITIAL SMASH, Bounce SKD"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "236S",
@@ -21692,18 +20980,6 @@ vegito = Character.create!(
     "EXTENSION": "INITIAL SMASH"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.L",
     "FIRST ACTIVE": "6f",
     "ACTIVE": "3f",
@@ -21764,18 +21040,6 @@ vegito = Character.create!(
     "EXTENSION": ""
   },
   {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION"
-  },
-  {
     "MOVE": "236L",
     "FIRST ACTIVE": "11f ; 23f",
     "ACTIVE": "3f ; 4f",
@@ -21810,18 +21074,6 @@ vegito = Character.create!(
     "PRORATION init/comb": "90% +1 / +1 +1",
     "SPECIAL": "",
     "EXTENSION": "Wall Bounce"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "j.236L",
@@ -21860,18 +21112,6 @@ vegito = Character.create!(
     "EXTENSION": "Wall Bounce"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "214L",
     "FIRST ACTIVE": "13f",
     "ACTIVE": "7f",
@@ -21908,18 +21148,6 @@ vegito = Character.create!(
     "EXTENSION": "Bounce, SKD"
   },
   {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
     "MOVE": "j.214L",
     "FIRST ACTIVE": "13f",
     "ACTIVE": "7f",
@@ -21954,18 +21182,6 @@ vegito = Character.create!(
     "PRORATION init/comb": "70% / +1",
     "SPECIAL": "",
     "EXTENSION": "Bounce, SKD"
-  },
-  {
-    "MOVE": "",
-    "FIRST ACTIVE": "",
-    "ACTIVE": "",
-    "RECOVERY": "",
-    "ADVANTAGE": "",
-    "GUARD": "",
-    "DAMAGE": "",
-    "PRORATION init/comb": "",
-    "SPECIAL": "",
-    "EXTENSION": ""
   },
   {
     "MOVE": "236S",
@@ -22334,20 +21550,6 @@ videl = Character.create!(
     "EXTENSION": "",
     "": "",
     "ANIMATION TOTAL": "39f / 30f"
-  },
-  {
-    "MOVE": "MOVE",
-    "FIRST ACTIVE": "FIRST ACTIVE",
-    "ACTIVE": "ACTIVE",
-    "RECOVERY": "RECOVERY",
-    "ADVANTAGE": "ADVANTAGE",
-    "GUARD": "GUARD",
-    "DAMAGE": "DAMAGE",
-    "PRORATION init/comb": "PRORATION init/comb",
-    "SPECIAL": "SPECIAL",
-    "EXTENSION": "EXTENSION",
-    "": "",
-    "ANIMATION TOTAL": ""
   },
   {
     "MOVE": "236L",
