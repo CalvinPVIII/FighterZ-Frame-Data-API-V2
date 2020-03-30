@@ -11,7 +11,7 @@ The frame data is being pulled from [this spreadsheet made by Turtleon](https://
 
 
 ## Endpoints
-##### /characters
+##### https://fighterz-frame-data-api.herokuapp.com/characters
 Gives you a list of all the characters and their info
 ##### /characters/id
 Gives you the info for the character with the matching id
@@ -19,7 +19,7 @@ Gives you the info for the character with the matching id
 Gives you the info for the character with the matching name parameter.
 
 Example: /characters?name=bardock gives you just Bardock
-##### /tiers
+##### https://fighterz-frame-data-api.herokuapp.com/tiers
 Gives you a list of all the characters and their info formatted into tiers
 ##### /tiers?tier=
 Gives you a list of all the characters that belong to a specific tier
