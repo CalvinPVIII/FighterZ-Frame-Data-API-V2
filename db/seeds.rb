@@ -12238,60 +12238,58 @@ uiGoku = Character.create!(
         "__2": "",
         "__3": ""
       }
-    ]
+    ],
 
-],
-supers: [
-  {
-    "MOVE": '236HS',
-    'STARTUP': 'Parry/Throw',
-    'ADVANTAGE': '-'
-  },
-{
-  'MOVE': '214LM',
-  'STARTUP': '-',
-  'ADVANTAGE': '-'
-},
-{
-  'MOVE': '214HS',
-  'STARTUP': '9',
-  'ADVANTAGE': '-19'
-}
-],
-assists: [
-  {
-    'TYPE': 'A',
-    'STARTUP': '30',
-    'BLOCKSTUN': '30',
-  },
-  {
-    'TYPE': 'B',
-    'STARTUP': '21',
-    'BLOCKSTUN': '32',
-  },
-  {
-    'TYPE': 'C',
-    'STARTUP': '61',
-    'BLOCKSTUN': '29',
-  },
+    supers: [
+      {
+        "MOVE": '236HS',
+        'STARTUP': 'Parry/Throw',
+        'ADVANTAGE': '-'
+      },
+      {
+        'MOVE': '-',
+        'STARTUP': '-',
+        'ADVANTAGE': '-'
+      },
+      {
+        'MOVE': '-',
+        'STARTUP': '-',
+        'ADVANTAGE': '-'
+      }
+    ],
+    assists: [
+    {
+      'TYPE': 'A',
+      'STARTUP': '-',
+      'BLOCKSTUN': '-',
+    },
+    {
+      'TYPE': 'B',
+      'STARTUP': '-',
+      'BLOCKSTUN': '-',
+    },
+    {
+      'TYPE': 'C',
+      'STARTUP': '-',
+      'BLOCKSTUN': '-',
+    },
 
-],
+    ],
 
-combos: [
-  {
-    position: 'midscreen',
-    notation: '5LL 2M 5M jMLHS superdash jLML djLL j2H',
-    video: 'https://streamable.com/s/ygrse',
-  },
-  {
-    position: 'corner',
-    notation: 'jML 5LL 5M 2M 236M 5LLL 214S hold 8 1S 214HS',
-    video: 'https://streamable.com/s/wbh0r',
-  },
+    combos: [
+    {
+      position: 'midscreen',
+      notation: '5LL 2M 5M jMLHS superdash jLML djLL j2H',
+      video: 'https://streamable.com/s/ygrse',
+    },
+    {
+      position: 'corner',
+      notation: 'jML 5LL 5M 2M 236M 5LLL 214S hold 8 1S 214HS',
+      video: 'https://streamable.com/s/wbh0r',
+    },
 
-],
+    ],
   }
-)
 )
 gokuBlack = Character.create!(
   character: {
