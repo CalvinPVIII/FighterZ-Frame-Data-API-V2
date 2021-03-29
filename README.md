@@ -34,7 +34,7 @@ Example: /tiers?tier=s gives you only S tier characters
 * _run the command "rake db:migrate"_
 * _run the command "rake db:seed"_
 * _run the command "rails s"_
-* _If used in conjuction with FighterZ Frame Data Front End, run "rails s -p 3001" instead_
+* _If used in conjunction with FighterZ Frame Data Front End, run "rails s -p 3001" instead_
 
 
 
