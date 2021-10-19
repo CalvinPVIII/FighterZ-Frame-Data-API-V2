@@ -1,408 +1,687 @@
+# Template character object
+# android16 = Character.create!(
+#   character:{
+#
+#   bio: {
+#   name: 'Android 16',
+#   pictures: {
+#     icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android16_Icon.png',
+#     portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android16_Portrait.png"
+#   },
+#   point: 4,
+#   mid: 2,
+#   anchor: 2,
+# },
+# moves: {
+#   normals: [
+#
+#   ],
+#   specials: [
+#
+#   ],
+#   supers: [
+#
+#   ],
+#   assists: [
+#
+#   ]
+# },
+#
+# combos: {
+#
+# }
+# })
+
+
+
+
+
 Character.destroy_all
 android16 = Character.create!(
   character:{
 
   bio: {
     name: 'Android 16',
-    pictures: ['https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android16_Icon.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/full/android16.jpg', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/portraits/Android%2016.png', 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android16_Portrait.png'],
-    tier: 'B'
+    pictures: {
+      icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android16_Icon.png',
+      portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android16_Portrait.png"
+    },
+    point: 3,
+    mid: 2,
+    anchor: 2,
   },
-  moves: [
-  {
-    "MOVE": "5L",
-    "FIRST ACTIVE": "7f",
-    "ACTIVE": "3f",
-    "RECOVERY": "17f",
-    "ADVANTAGE": "-6f",
-    "GUARD": "All",
-    "DAMAGE": 400,
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
+  moves: {
+    normals: [
+      {
+        "input": "5L",
+        "damage": "400",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "7",
+        "active": "3",
+        "recovery": "15",
+        "onBlock": "-4",
+        "invuln": "",
+        "level": "1",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "5LL",
+        "damage": "700",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "10",
+        "active": "4",
+        "recovery": "22",
+        "onBlock": "-10",
+        "invuln": "",
+        "level": "2",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "5LLL",
+        "damage": "1000",
+        "smash": "U3+",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "10",
+        "active": "1",
+        "recovery": "19",
+        "onBlock": "",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "5M",
+        "damage": "700",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "11",
+        "active": "3",
+        "recovery": "19",
+        "onBlock": "-6",
+        "invuln": "",
+        "level": "2",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "5H",
+        "damage": "850 / 1000",
+        "smash": "U1",
+        "prorate": "",
+        "guard": "All",
+        "startup": "15",
+        "active": "11",
+        "recovery": "21",
+        "onBlock": "-8",
+        "invuln": "13-25 Strike Armor",
+        "level": "4",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "5S",
+        "damage": "600×2",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "15",
+        "active": "",
+        "recovery": "Total 55",
+        "onBlock": "-10",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "2L",
+        "damage": "400",
+        "smash": "",
+        "prorate": "",
+        "guard": "Low",
+        "startup": "8",
+        "active": "3",
+        "recovery": "13",
+        "onBlock": "-4",
+        "invuln": "",
+        "level": "1",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "2M",
+        "damage": "700",
+        "smash": "",
+        "prorate": "",
+        "guard": "Low",
+        "startup": "13",
+        "active": "4",
+        "recovery": "24",
+        "onBlock": "-12",
+        "invuln": "",
+        "level": "2",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "2H",
+        "damage": "850 / 1000",
+        "smash": "U1+",
+        "prorate": "",
+        "guard": "All",
+        "startup": "15",
+        "active": "9",
+        "recovery": "23",
+        "onBlock": "-22",
+        "invuln": "4-14 Head\n15-23 Strike Armor",
+        "level": "4",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "6M",
+        "damage": "850",
+        "smash": "",
+        "prorate": "",
+        "guard": "High",
+        "startup": "24",
+        "active": "6",
+        "recovery": "4+6L",
+        "onBlock": "±0",
+        "invuln": "",
+        "level": "3",
+        "blockstun": "15",
+        "groundHit": "18",
+        "airHit": "23"
+     },
+     {
+        "input": "j.L",
+        "damage": "400",
+        "smash": "",
+        "prorate": "",
+        "guard": "High",
+        "startup": "8",
+        "active": "10",
+        "recovery": "11",
+        "onBlock": "",
+        "invuln": "",
+        "level": "1",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "j.M",
+        "damage": "700",
+        "smash": "",
+        "prorate": "",
+        "guard": "High",
+        "startup": "11",
+        "active": "6",
+        "recovery": "12",
+        "onBlock": "",
+        "invuln": "",
+        "level": "2",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "5LLLLLLL",
+        "damage": "850",
+        "smash": "D3",
+        "prorate": "",
+        "guard": "All",
+        "startup": "15",
+        "active": "8",
+        "recovery": "21",
+        "onBlock": "",
+        "invuln": "13-22 Strike Armor",
+        "level": "3",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "j.H",
+        "damage": "850",
+        "smash": "U1",
+        "prorate": "",
+        "guard": "All",
+        "startup": "15",
+        "active": "8",
+        "recovery": "21",
+        "onBlock": "",
+        "invuln": "13-22 Strike Armor",
+        "level": "3",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "j.S",
+        "damage": "600×2",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "18",
+        "active": "",
+        "recovery": "Total 47+3L",
+        "onBlock": "",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     },
+     {
+        "input": "j.2H",
+        "damage": "850",
+        "smash": "D1",
+        "prorate": "",
+        "guard": "High",
+        "startup": "19",
+        "active": "Until Landing",
+        "recovery": "18",
+        "onBlock": "-5 ~ -1",
+        "invuln": "",
+        "level": "3",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+     }
+
+    ],
+    specials: [
+      {
+        "input": "236L",
+        "name": "L Dynamite Driver",
+        "damage": "1800",
+        "smash": "D2",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "17",
+        "active": "1",
+        "recovery": "26",
+        "onBlock": "",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "236M",
+        "name": "M Dynamite Driver",
+        "damage": "1800",
+        "smash": "U1+",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "26",
+        "active": "1",
+        "recovery": "28",
+        "onBlock": "",
+        "invuln": "4-27 Guard P",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "236H",
+        "name": "H Dynamite Driver",
+        "damage": "1800",
+        "smash": "U1+",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "24",
+        "active": "1",
+        "recovery": "28",
+        "onBlock": "",
+        "invuln": "4-25 Guard P",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "j.236L",
+        "name": "L Gliding Powerbomb",
+        "damage": "700 / 1400",
+        "smash": "U1",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "10",
+        "active": "",
+        "recovery": "+3L",
+        "onBlock": "",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "j.236M",
+        "name": "M Gliding Powerbomb",
+        "damage": "700 / 1400,200",
+        "smash": "U1+",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "19",
+        "active": "",
+        "recovery": "+3L",
+        "onBlock": "",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "j.236H",
+        "name": "H Gliding Powerbomb",
+        "damage": "900 / 1400,200",
+        "smash": "U1+",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "11",
+        "active": "",
+        "recovery": "+3L",
+        "onBlock": "",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "214L",
+        "name": "L Flying Powerbomb",
+        "damage": "700 / 1400",
+        "smash": "U1",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "10",
+        "active": "",
+        "recovery": "+3L",
+        "onBlock": "",
+        "invuln": "4-10 Head",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "214M",
+        "name": "M Flying Powerbomb",
+        "damage": "700 / 1400",
+        "smash": "U1",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "19",
+        "active": "",
+        "recovery": "+3L",
+        "onBlock": "",
+        "invuln": "4-19 Head",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "214H",
+        "name": "H Flying Powerbomb",
+        "damage": "300,900 / 300,1500",
+        "smash": "U1",
+        "prorate": "",
+        "guard": "Low, Throw",
+        "startup": "6",
+        "active": "",
+        "recovery": "+3L",
+        "onBlock": "-1",
+        "invuln": "1-13 Head",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "j.214L",
+        "name": "Air L Flying Powerbomb",
+        "damage": "700 / 1400",
+        "smash": "U1",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "10",
+        "active": "",
+        "recovery": "+3L",
+        "onBlock": "",
+        "invuln": "4-10 Head",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "j.214M",
+        "name": "Air M Flying Powerbomb",
+        "damage": "700 / 1400",
+        "smash": "U1",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "19",
+        "active": "",
+        "recovery": "+3L",
+        "onBlock": "",
+        "invuln": "4-19 Head",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "j.214H",
+        "name": "Air H Flying Powerbomb",
+        "damage": "900 / 1800",
+        "smash": "U1",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "12",
+        "active": "",
+        "recovery": "+3L",
+        "onBlock": "",
+        "invuln": "1-13 Head",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "236S",
+        "name": "Hell Heat",
+        "damage": "270×4",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "18",
+        "active": "15",
+        "recovery": "22",
+        "onBlock": "-1",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "214S",
+        "name": "Hell Heat",
+        "damage": "150×8",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "24",
+        "active": "15",
+        "recovery": "18",
+        "onBlock": "+4",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      }
+    ],
+    supers: [
+      {
+        "input": "236LM",
+        "name": "Hell Flash",
+        "damage": "350×8 [300×8]",
+        "smash": "UDV",
+        "prorate": "",
+        "guard": "All",
+        "startup": "9+4",
+        "active": "45",
+        "recovery": "45",
+        "onBlock": "-23",
+        "invuln": "9-20 All",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "j.236LM",
+        "name": "Air Hell Flash",
+        "damage": "322×8 [300×8]",
+        "smash": "UDV",
+        "prorate": "",
+        "guard": "All",
+        "startup": "9+4",
+        "active": "45",
+        "recovery": "",
+        "onBlock": "",
+        "invuln": "9-20 All",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "214LM",
+        "name": "Hell Flash Maximum Output",
+        "damage": "4816",
+        "smash": "UDV",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "9+3",
+        "active": "1",
+        "recovery": "28",
+        "onBlock": "Throw [+28]",
+        "invuln": "1-12 All",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "214HS",
+        "name": "Last Resort",
+        "damage": "50000",
+        "smash": "UDV",
+        "prorate": "",
+        "guard": "Throw",
+        "startup": "31+34",
+        "active": "4",
+        "recovery": "37",
+        "onBlock": "",
+        "invuln": "1-68 All\n69-105 Ki Blasts",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      }
+    ],
+    assists: [
+      {
+        "input": "Assist A",
+        "name": "Hell Heat",
+        "damage": "450×2",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "29",
+        "active": "",
+        "recovery": "",
+        "onBlock": "+26",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "Assist B",
+        "name": "Hell Impact",
+        "damage": "250×4",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "31",
+        "active": "",
+        "recovery": "",
+        "onBlock": "+31",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      },
+      {
+        "input": "Assist C",
+        "name": "Hyper Tackle",
+        "damage": "450×2, 400",
+        "smash": "",
+        "prorate": "",
+        "guard": "All",
+        "startup": "35 [21]",
+        "active": "",
+        "recovery": "",
+        "onBlock": "+50",
+        "invuln": "",
+        "level": "",
+        "blockstun": "",
+        "groundHit": "",
+        "airHit": ""
+      }
+
+    ]
   },
-  {
-    "MOVE": "5LL",
-    "FIRST ACTIVE": "10f",
-    "ACTIVE": "4f",
-    "RECOVERY": "22f",
-    "ADVANTAGE": "-10f",
-    "GUARD": "All",
-    "DAMAGE": 700,
-    "PRORATION init/comb": "90% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "5LLL",
-    "FIRST ACTIVE": "10f",
-    "ACTIVE": "1f",
-    "RECOVERY": "19f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1000,
-    "PRORATION init/comb": "70% / +1",
-    "SPECIAL": "",
-    "EXTENSION": "SMASH"
-  },
-  {
-    "MOVE": "2L",
-    "FIRST ACTIVE": "8f",
-    "ACTIVE": "3f",
-    "RECOVERY": "13f",
-    "ADVANTAGE": "-4f",
-    "GUARD": "LOW",
-    "DAMAGE": 500,
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "5M",
-    "FIRST ACTIVE": "11f",
-    "ACTIVE": "3f",
-    "RECOVERY": "19f",
-    "ADVANTAGE": "-11f",
-    "GUARD": "All",
-    "DAMAGE": 700,
-    "PRORATION init/comb": "90% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "2M",
-    "FIRST ACTIVE": "13f",
-    "ACTIVE": "4f",
-    "RECOVERY": "24f",
-    "ADVANTAGE": "-12f",
-    "GUARD": "LOW",
-    "DAMAGE": 700,
-    "PRORATION init/comb": "90% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "5H",
-    "FIRST ACTIVE": "15f",
-    "ACTIVE": "11f",
-    "RECOVERY": "21f",
-    "ADVANTAGE": "-8f",
-    "GUARD": "All",
-    "DAMAGE": 850,
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "strk.armor 13f - 25f",
-    "EXTENSION": "INITIAL SMASH"
-  },
-  {
-    "MOVE": "2H",
-    "FIRST ACTIVE": "15f",
-    "ACTIVE": "9f",
-    "RECOVERY": "29f",
-    "ADVANTAGE": "-22f",
-    "GUARD": "All",
-    "DAMAGE": 850,
-    "PRORATION init/comb": "90% / +1",
-    "SPECIAL": "4f anti-air, strkarmor 15f - 23f / INITIAL SMASH",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "5S ; 5S",
-    "FIRST ACTIVE": "15f ; 35",
-    "ACTIVE": "- ; -",
-    "RECOVERY": "41f ; 41f from first active",
-    "ADVANTAGE": "Point blank -10f* ; -10f*",
-    "GUARD": "All",
-    "DAMAGE": "600 ; 600",
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "Chain up to 2",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "j.L",
-    "FIRST ACTIVE": "8f",
-    "ACTIVE": "10f",
-    "RECOVERY": "-",
-    "ADVANTAGE": "-",
-    "GUARD": "HIGH",
-    "DAMAGE": 400,
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "j.M",
-    "FIRST ACTIVE": "11f",
-    "ACTIVE": "6f",
-    "RECOVERY": "-",
-    "ADVANTAGE": "-",
-    "GUARD": "HIGH",
-    "DAMAGE": 700,
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "j.H",
-    "FIRST ACTIVE": "17f",
-    "ACTIVE": "8f",
-    "RECOVERY": "-",
-    "ADVANTAGE": "-",
-    "GUARD": "All",
-    "DAMAGE": 850,
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "strk.armor 15f - 24f",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "j.2H",
-    "FIRST ACTIVE": "21f",
-    "ACTIVE": "until lands",
-    "RECOVERY": "20f from landing",
-    "ADVANTAGE": "-",
-    "GUARD": "HIGH",
-    "DAMAGE": 850,
-    "PRORATION init/comb": "70% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "j.S",
-    "FIRST ACTIVE": "18f ; 33f",
-    "ACTIVE": "-",
-    "RECOVERY": "-",
-    "ADVANTAGE": "-",
-    "GUARD": "All",
-    "DAMAGE": "600 ; 600",
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "236L",
-    "FIRST ACTIVE": "17f",
-    "ACTIVE": "1f",
-    "RECOVERY": "26f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1500,
-    "PRORATION init/comb": "70% / +1",
-    "SPECIAL": "",
-    "EXTENSION": "SKD"
-  },
-  {
-    "MOVE": "236M",
-    "FIRST ACTIVE": "28f",
-    "ACTIVE": "1f",
-    "RECOVERY": "28f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1550,
-    "PRORATION init/comb": "70% / +1",
-    "SPECIAL": "Ki-blast invuln 5f - 27f",
-    "EXTENSION": "WALL BOUNCE ; SKD"
-  },
-  {
-    "MOVE": "236H (1bar)",
-    "FIRST ACTIVE": "26f",
-    "ACTIVE": "1f",
-    "RECOVERY": "28f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1550,
-    "PRORATION init/comb": "70% / +1",
-    "SPECIAL": "Ki-blast invuln 3f - 25f",
-    "EXTENSION": "WALL BOUNCE ; SKD"
-  },
-  {
-    "MOVE": "j.236L",
-    "FIRST ACTIVE": "10f",
-    "ACTIVE": "3f",
-    "RECOVERY": "27f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1400,
-    "PRORATION init/comb": "60% / +1",
-    "SPECIAL": "",
-    "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "j.236M",
-    "FIRST ACTIVE": "19f",
-    "ACTIVE": "10f",
-    "RECOVERY": "26f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": "1400, 200",
-    "PRORATION init/comb": "70% +1 / +1 +1",
-    "SPECIAL": "",
-    "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "j.236H (1bar)",
-    "FIRST ACTIVE": "12f",
-    "ACTIVE": "8f",
-    "RECOVERY": "26f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": "1400, 200",
-    "PRORATION init/comb": "70% / +1",
-    "SPECIAL": "",
-    "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "214L",
-    "FIRST ACTIVE": "10f",
-    "ACTIVE": "11f",
-    "RECOVERY": "16f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1400,
-    "PRORATION init/comb": "60% / +1",
-    "SPECIAL": "Anti-air 4f - 10f",
-    "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "214M",
-    "FIRST ACTIVE": "19f",
-    "ACTIVE": "9f",
-    "RECOVERY": "16f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1400,
-    "PRORATION init/comb": "60% / +1",
-    "SPECIAL": "Anti-air 4f - 19f",
-    "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "214H (1bar)",
-    "FIRST ACTIVE": "6f ; 13f",
-    "ACTIVE": "2f ; 9f",
-    "RECOVERY": "14f",
-    "ADVANTAGE": "-1f ; -",
-    "GUARD": "All ; Throw",
-    "DAMAGE": "300 ; 1500",
-    "PRORATION init/comb": "70% / +1 +1",
-    "SPECIAL": "Anti-air 1f - 13f",
-    "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "j.214L",
-    "FIRST ACTIVE": "10f",
-    "ACTIVE": "11f",
-    "RECOVERY": "16f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1400,
-    "PRORATION init/comb": "60% / +1",
-    "SPECIAL": "",
-    "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "j.214M",
-    "FIRST ACTIVE": "19f",
-    "ACTIVE": "9f",
-    "RECOVERY": "16f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1400,
-    "PRORATION init/comb": "60% / +1",
-    "SPECIAL": "",
-    "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "j.214H (1bar)",
-    "FIRST ACTIVE": "12f",
-    "ACTIVE": "9f",
-    "RECOVERY": "14f",
-    "ADVANTAGE": "-",
-    "GUARD": "Throw",
-    "DAMAGE": 1800,
-    "PRORATION init/comb": "70% / +1",
-    "SPECIAL": "",
-    "EXTENSION": "Counsumes Smash"
-  },
-  {
-    "MOVE": "236S",
-    "FIRST ACTIVE": "18f",
-    "ACTIVE": "15f",
-    "RECOVERY": "21f",
-    "ADVANTAGE": "-1f",
-    "GUARD": "All",
-    "DAMAGE": "270, 270 x3",
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
-  },
-  {
-    "MOVE": "214S",
-    "FIRST ACTIVE": "24f",
-    "ACTIVE": "15f",
-    "RECOVERY": "18f",
-    "ADVANTAGE": "4f",
-    "GUARD": "All",
-    "DAMAGE": "150, 150 x7",
-    "PRORATION init/comb": "80% / +1",
-    "SPECIAL": "",
-    "EXTENSION": ""
+
+  combos: {
+
   }
-],
-  supers: [
-    {
-      'MOVE': '236LM',
-      'STARTUP': '9',
-      'ADVANTAGE': '-'
-    },
-    {
-      'MOVE': 'j236LM',
-      'STARTUP': '9',
-      'ADVANTAGE': '-'
-    },
-  {
-    'MOVE': '214LM',
-    'STARTUP': '9',
-    'ADVANTAGE': '-'
-  },
-  {
-    'MOVE': '214HS',
-    'STARTUP': '31',
-    'ADVANTAGE': '-'
-  }
-  ],
-  assists: [
-    {
-      'TYPE': 'A',
-      'STARTUP': '29',
-      'BLOCKSTUN': '22'
-    },
-    {
-      'TYPE': 'B',
-      'STARTUP': '31',
-      'BLOCKSTUN': '43'
-    },
-    {
-      'TYPE': 'C',
-      'STARTUP': '46',
-      'BLOCKSTUN': '50'
-    }
-
-  ],
-
-  combos: [
-    {
-      position: 'midscreen',
-      notation: '2M 5M jM j2H superdash jML djL4LM jH delay j214L',
-      video: 'https://streamable.com/s/832fy',
-    },
-    {
-      position: 'corner',
-      notation: '2M 5M jM djM jS(2) j236M(2) superdash jM djM jH jS(2) j214L',
-      video: 'https://streamable.com/s/hvrtg',
-    },
-
-  ],
-
-
-
 })
+
+
 android17 = Character.create!(
   character: {
     bio: {
