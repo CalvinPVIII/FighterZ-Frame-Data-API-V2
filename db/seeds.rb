@@ -4,7 +4,7 @@
 #
 #   bio: {
 #   name: 'Super Saiyan 4 Gogeta',
-#   pictures: {
+#   images: {
 #     icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android16_Icon.png',
 #     portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android16_Portrait.png"
 #   },
@@ -39,7 +39,7 @@ android16 = Character.create!(
 
   bio: {
     name: 'Android 16',
-    pictures: {
+    images: {
       icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android16_Icon.png',
       portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android16_Portrait.png"
     },
@@ -681,7 +681,7 @@ android17 = Character.create!(
   character: {
     bio: {
       name: 'Android 17',
-      pictures: {
+      images: {
         icon: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android17_Icon.png",
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android_17_Portrait.png'
       },
@@ -1678,7 +1678,7 @@ android18 = Character.create!(
   character: {
     bio: {
       name: 'Android 18',
-      pictures:{
+      images:{
         icon: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android18_Icon.png",
         portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android18_Portrait.png",
       },
@@ -2355,7 +2355,7 @@ android21 = Character.create!(
   character: {
     bio: {
       name: 'Android 21',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android21_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android21_Portrait.png'
       },
@@ -3220,8 +3220,8 @@ android21 = Character.create!(
         "groundHit": "",
         "airHit": ""
      }
-  ]
-      ],
+  ],
+
       supers: [
         {
          "input": "236LM",
@@ -3357,7 +3357,7 @@ bardock = Character.create!(
   character: {
     bio: {
       name: 'Bardock',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Bardock_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Bardock_Portrait.png',
       },
@@ -4033,7 +4033,7 @@ beerus = Character.create!(
   character: {
     bio: {
       name: 'Beerus',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Beerus_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Beerus_Portrait.png',
       },
@@ -4880,7 +4880,7 @@ dbsBroly = Character.create!(
   character: {
     bio: {
       name: 'DBS Broly',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_DBSBroly_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_DBS_Broly_Portrait.png',
       },
@@ -5539,7 +5539,7 @@ dbzBroly = Character.create!(
   character: {
     bio: {
       name: 'DBZ Broly',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Broly_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Broly_Portrait.png',
       },
@@ -6182,7 +6182,7 @@ cptGinyu = Character.create!(
   character: {
     bio: {
       name: 'Captain Ginyu',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Ginyu_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Ginyu_Portrait.png',
       },
@@ -7185,7 +7185,7 @@ cell = Character.create!(
   character: {
     bio: {
       name: 'Cell',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Cell_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Cell_Portrait.png',
       },
@@ -7878,7 +7878,7 @@ cooler = Character.create!(
   character: {
     bio: {
       name: 'Cooler',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Cooler_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Cooler_Portrait.png',
         },
@@ -8673,8 +8673,8 @@ frieza = Character.create!(
   character: {
     bio: {
       name: 'Frieza',
-      pictures: {
-        icons: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Frieza_Icon.png',
+      images: {
+        icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/overhaul/public/images/icons/DBFZ_Frieza_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Frieza_Portrait.png',
       },
         point: 3,
@@ -9281,7 +9281,7 @@ gogetaBlue = Character.create!(
   character: {
     bio: {
       name: 'Super Saiyan Blue Gogeta',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Gogeta_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_SSB_Gogeta_Portrait.png',
       },
@@ -10111,9 +10111,9 @@ ssj4Gogeta = Character.create!(
 
   bio: {
   name: 'Super Saiyan 4 Gogeta',
-  pictures: {
-    icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android16_Icon.png',
-    portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android16_Portrait.png"
+  images: {
+    icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/overhaul/public/images/icons/DBFZ_SS4Gogeta_Icon.png',
+    portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/overhaul/public/images/characters/DBFZ_SS4_Gogeta_Portrait.png"
   },
   point: 5,
   mid: 4,
@@ -10887,7 +10887,7 @@ adultGohan = Character.create!(
   character: {
     bio: {
       name: 'Adult Gohan',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_AdultGohan_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Adult_Gohan_Portrait.png'
       },
@@ -11930,7 +11930,7 @@ teenGohan = Character.create!(
   character: {
     bio: {
       name: 'Teen Gohan',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_TeenGohan_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Teen_Gohan_Portrait.png',
       },
@@ -12590,7 +12590,7 @@ baseGoku = Character.create!(
   character: {
     bio: {
       name: 'Goku',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Goku_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Goku_Portrait.png',
       },
@@ -13469,7 +13469,7 @@ ssjGoku = Character.create!(
   character: {
     bio: {
       name: 'Super Saiyan Goku',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_SSGoku_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_SS_Goku_Portrait.png',
       },
@@ -14147,7 +14147,7 @@ blueGoku = Character.create!(
   character: {
     bio: {
       name: 'Super Saiyan Blue Goku',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_SSBGoku_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_SSB_Goku_Portrait.png',
       },
@@ -14791,7 +14791,7 @@ gtGoku = Character.create!(
   character: {
     bio: {
       name: 'GT Goku',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_GTGoku_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_GT_Goku_Portrait.png',
       },
@@ -15518,7 +15518,7 @@ uiGoku = Character.create!(
   character: {
     bio: {
       name: 'Ultra Instinct Goku',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_UI_Goku_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_UI_Goku_Portrait.png',
       },
@@ -16430,7 +16430,7 @@ gokuBlack = Character.create!(
   character: {
     bio: {
       name: 'Super Saiyan Rosé Goku Black',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_GokuBlack_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_GokuBlack_Portrait.png',
       },
@@ -17108,7 +17108,7 @@ gotenks = Character.create!(
   character: {
     bio: {
       name: 'Gotenks',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Gotenks_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Gotenks_Portrait.png',
       },
@@ -17770,7 +17770,7 @@ hit = Character.create!(
   character: {
     bio: {
       name: 'Hit',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Hit_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Hit_Portrait.png',
       },
@@ -18446,7 +18446,7 @@ janemba = Character.create!(
   character: {
     bio: {
       name: 'Janemba',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Janemba_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Janemba_Portrait.png',
       },
@@ -19192,7 +19192,7 @@ jiren = Character.create!(
   character: {
     bio: {
       name: 'Jiren',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Jiren_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Jiren_Portrait.png',
       },
@@ -19801,7 +19801,7 @@ kefla = Character.create!(
   character: {
     bio: {
       name: 'Kefla',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Kefla_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Kefla_Portrait.png',
       },
@@ -20444,7 +20444,7 @@ kidBuu = Character.create!(
   character: {
     bio: {
       name: 'Kid Buu',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_KidBuu_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_KidBuu_Portrait.png',
       },
@@ -21054,7 +21054,7 @@ krillin = Character.create!(
   character: {
     bio: {
       name: 'Krillin',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Krillin_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Krillin_Portrait.png',
       },
@@ -21833,7 +21833,7 @@ majinBuu = Character.create!(
   character: {
     bio: {
       name: 'Majin Buu',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_MajinBuu_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_MajinBuu_Portrait.png',
       },
@@ -22477,9 +22477,9 @@ masterRoshi = Character.create!(
 
         bio: {
           name: 'Master Roshi',
-          pictures: {
-            icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android16_Icon.png',
-            portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android16_Portrait.png"
+          images: {
+            icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/overhaul/public/images/icons/DBFZ_Master_Roshi_Icon.png',
+            portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/overhaul/public/images/characters/DBFZ_Master_Roshi_Portrait.png"
           },
           point: 2,
           mid: 4,
@@ -23355,7 +23355,7 @@ nappa = Character.create!(
   character: {
     bio: {
       name: 'Nappa',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Nappa_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Nappa_Portrait.png',
       },
@@ -24017,7 +24017,7 @@ piccolo = Character.create!(
   character: {
     bio: {
       name: 'Piccolo',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Piccolo_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Piccolo_Portrait.png',
       },
@@ -24795,9 +24795,9 @@ superBaby2 = Character.create!(
 
     bio: {
       name: 'Super Baby 2',
-      pictures: {
-        icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Android16_Icon.png',
-        portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Android16_Portrait.png"
+      images: {
+        icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/overhaul/public/images/icons/DBFZ_Super_Baby_2_Icon.png',
+        portrait: "https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/overhaul/public/images/characters/DBFZ_Super_Baby_2_Portrait.png"
       },
       point: 3,
       mid: 4,
@@ -25589,7 +25589,7 @@ tien = Character.create!(
   character: {
     bio: {
       name: 'Tien Shinhan',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Tien_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Tien_Portrait.png',
       },
@@ -26437,7 +26437,7 @@ trunks = Character.create!(
   character: {
     bio: {
       name: 'Trunks',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Trunks_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Trunks_Portrait.png',
       },
@@ -27099,7 +27099,7 @@ baseVegeta = Character.create!(
   character: {
     bio: {
       name: 'Vegeta',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Vegeta_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Vegeta_Portrait.png',
       },
@@ -27742,7 +27742,7 @@ ssjVegeta = Character.create!(
   character: {
     bio: {
       name: 'Super Saiyan Vegeta',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_SSVegeta_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_SS_Vegeta_Portrait.png',
       },
@@ -28387,7 +28387,7 @@ blueVegeta = Character.create!(
   character: {
     bio: {
       name: 'Super Saiyan Blue Vegeta',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_SSBVegeta_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_SSB_Vegeta_Portrait.png',
       },
@@ -29183,7 +29183,7 @@ vegito = Character.create!(
   character: {
     bio: {
       name: 'Vegito',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Vegito_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Vegito_Portrait.png',
       },
@@ -29893,7 +29893,7 @@ videl = Character.create!(
   character: {
     bio: {
       name: 'Videl',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Videl_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Videl_Portrait.png',
       },
@@ -30772,7 +30772,7 @@ yamcha = Character.create!(
   character: {
     bio: {
       name: 'Yamcha',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Yamcha_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Yamcha_Portrait.png',
       },
@@ -31433,7 +31433,7 @@ zamasu = Character.create!(
   character: {
     bio: {
       name: 'Zamasu',
-      pictures: {
+      images: {
         icon: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/icons/DBFZ_Zamasu_Icon.png',
         portrait: 'https://raw.githubusercontent.com/CalvinPVIII/FighterZ-Frame-Data-API-V2/master/public/images/characters/DBFZ_Zamasu_Portrait.png',
       },
@@ -32285,17 +32285,17 @@ zamasu = Character.create!(
 
 
 
-Tier.destroy_all
-tier_list = Tier.create!(
-  tiers: {
-
-  s: [gtGoku, kidBuu, teenGohan, bardock, adultGohan, ssjGoku],
-  a: [cell, ssjVegeta, trunks, yamcha, android21, piccolo, baseGoku, kefla, gotenks, gogeta, android18, baseVegeta, vegito, blueGoku, zamasu, cooler, dbzBroly, dbsBroly, gokuBlack],
-  b: [android16, tien, janemba, android17, frieza, majinBuu, nappa, hit, beerus],
-  c: [jiren, krillin, blueVegeta, cptGinyu, videl]
-}
-
-)
+# Tier.destroy_all
+# tier_list = Tier.create!(
+#   tiers: {
+#
+#   s: [gtGoku, kidBuu, teenGohan, bardock, adultGohan, ssjGoku],
+#   a: [cell, ssjVegeta, trunks, yamcha, android21, piccolo, baseGoku, kefla, gotenks, gogeta, android18, baseVegeta, vegito, blueGoku, zamasu, cooler, dbzBroly, dbsBroly, gokuBlack],
+#   b: [android16, tien, janemba, android17, frieza, majinBuu, nappa, hit, beerus],
+#   c: [jiren, krillin, blueVegeta, cptGinyu, videl]
+# }
+#
+# )
 puts 'success'
 
 
